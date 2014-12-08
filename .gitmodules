@@ -1,0 +1,3 @@
+[submodule "aalborg_mfc_interface"]
+	path = aalborg_mfc_interface
+	url = https://github.com/JaneliaSciComp/aalborg_mfc_interface.git
