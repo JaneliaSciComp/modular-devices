@@ -1,4 +1,4 @@
-| model_number | device_name           |
-|--------------+-----------------------|
-|         1100 | aalborg_mfc_interface |
-|              |                       |
+| model\_number | device\_name            |
+|---------------+-------------------------|
+|          1100 | aalborg\_mfc\_interface |
+|               |                         |
