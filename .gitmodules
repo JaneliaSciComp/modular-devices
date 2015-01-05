@@ -1,3 +1,6 @@
 [submodule "aalborg_mfc_interface"]
 	path = aalborg_mfc_interface
 	url = https://github.com/JaneliaSciComp/aalborg_mfc_interface.git
+[submodule "power_switch_controller"]
+	path = power_switch_controller
+	url = https://github.com/JaneliaSciComp/power_switch_controller
