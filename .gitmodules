@@ -4,3 +4,6 @@
 [submodule "power_switch_controller"]
 	path = power_switch_controller
 	url = https://github.com/JaneliaSciComp/power_switch_controller
+[submodule "enclosure"]
+	path = enclosure
+	url = git@github.com:JaneliaSciComp/enclosure_remote_device.git
