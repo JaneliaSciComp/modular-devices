@@ -7,3 +7,6 @@
 [submodule "enclosure"]
 	path = enclosure
 	url = https://github.com/JaneliaSciComp/modular_device_enclosure.git
+[submodule "host/python"]
+	path = host/python
+	url = https://github.com/JaneliaSciComp/modular_device_python.git
