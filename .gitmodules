@@ -10,3 +10,6 @@
 [submodule "host/python"]
 	path = host/python
 	url = https://github.com/JaneliaSciComp/modular_device_python.git
+[submodule "host/matlab"]
+	path = host/matlab
+	url = https://github.com/JaneliaSciComp/modular_device_matlab.git
