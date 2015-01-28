@@ -13,3 +13,6 @@
 [submodule "host/matlab"]
 	path = host/matlab
 	url = https://github.com/JaneliaSciComp/modular_device_matlab.git
+[submodule "host/nodejs"]
+	path = host/nodejs
+	url = https://github.com/JaneliaSciComp/modular_device_nodejs.git
