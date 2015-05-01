@@ -5,3 +5,4 @@ model_number,device_name
 1003,standalone_modular_device (example)
 1100,aalborg_mfc_interface
 1110,power_switch_controller
+1120,mixed_signal_controller
