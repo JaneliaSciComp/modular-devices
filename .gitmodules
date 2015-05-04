@@ -16,3 +16,6 @@
 [submodule "host/nodejs"]
 	path = host/nodejs
 	url = https://github.com/JaneliaSciComp/modular_device_nodejs.git
+[submodule "hybridizer_head_controller"]
+	path = hybridizer_head_controller
+	url = git@github.com:JaneliaSciComp/hybridizer_head_controller.git
