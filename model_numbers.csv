@@ -6,3 +6,5 @@ model_number,device_name
 1100,aalborg_mfc_interface
 1110,power_switch_controller
 1120,mixed_signal_controller
+1130,pwm_controller
+1140,hybridizer_head_controller
