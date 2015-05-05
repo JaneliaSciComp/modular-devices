@@ -19,3 +19,6 @@
 [submodule "hybridizer_head_controller"]
 	path = hybridizer_head_controller
 	url = https://github.com/JaneliaSciComp/hybridizer_head_controller.git
+[submodule "mixed_signal_controller"]
+	path = mixed_signal_controller
+	url = https://github.com/JaneliaSciComp/mixed_signal_controller.git
