@@ -1,21 +1,21 @@
 [submodule "aalborg_mfc_interface"]
 	path = aalborg_mfc_interface
-	url = https://github.com/JaneliaSciComp/aalborg_mfc_interface.git
+	url = https://github.com/janelia-modular-devices/aalborg_mfc_interface.git
 [submodule "power_switch_controller"]
 	path = power_switch_controller
-	url = https://github.com/JaneliaSciComp/power_switch_controller
+	url = https://github.com/janelia-modular-devices/power_switch_controller
 [submodule "enclosure"]
 	path = enclosure
-	url = https://github.com/JaneliaSciComp/modular_device_enclosure.git
+	url = https://github.com/janelia-modular-devices/modular_device_enclosure.git
 [submodule "host/python"]
 	path = host/python
-	url = https://github.com/JaneliaSciComp/modular_device_python.git
+	url = https://github.com/janelia-modular-devices/modular_device_python.git
 [submodule "host/matlab"]
 	path = host/matlab
-	url = https://github.com/JaneliaSciComp/modular_device_matlab.git
+	url = https://github.com/janelia-modular-devices/modular_device_matlab.git
 [submodule "host/nodejs"]
 	path = host/nodejs
-	url = https://github.com/JaneliaSciComp/modular_device_nodejs.git
+	url = https://github.com/janelia-modular-devices/modular_device_nodejs.git
 [submodule "mixed_signal_controller"]
 	path = mixed_signal_controller
-	url = https://github.com/JaneliaSciComp/mixed_signal_controller.git
+	url = https://github.com/janelia-modular-devices/mixed_signal_controller.git
