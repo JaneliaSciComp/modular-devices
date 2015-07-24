@@ -19,11 +19,11 @@ git submodule update
 
 ##Host Computer Interface
 
-[Python](./host/python)
+[Python](https://github.com/janelia-modular-devices/modular_device_python)
 
-[Matlab](./host/matlab)
+[Matlab](https://github.com/janelia-modular-devices/modular_device_matlab)
 
-[NodeJS](./host/nodejs)
+[NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs)
 
 ###Arduino Serial Monitor
 
@@ -53,7 +53,7 @@ each method takes, type two questions marks:
 ```
 
 To get more information about a single method, enter the method
-followed by a question mark ?
+followed by a question mark '?'.
 
 Example Method Help:
 
@@ -63,9 +63,18 @@ setSerialNumber ?
 
 To get more verbose help about the method, including more information
 about the parameters each method takes, type the method name followed
-by two questions marks:
+by two questions marks '??'.
+
+Example Method Verbose Help:
 
 ```shell
 setSerialNumber ??
 ```
 
+##Arduino Firmware
+
+<https://github.com/janelia-modular-devices/modular_device_arduino>
+
+##Enclosure
+
+<https://github.com/janelia-modular-devices/modular_device_enclosure>
