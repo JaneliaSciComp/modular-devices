@@ -7,3 +7,4 @@ model_number,device_name
 1110,power_switch_controller
 1120,mixed_signal_controller
 1130,pwm_controller
+1140,stepper_controller
