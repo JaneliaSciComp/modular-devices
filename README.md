@@ -172,7 +172,7 @@ each method takes, type two questions marks:
 
 ##Arduino Firmware
 
-<https://github.com/janelia-modular-devices/modular_device_arduino>
+<https://github.com/janelia-arduino>
 
 ##Enclosure
 
