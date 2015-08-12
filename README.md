@@ -172,8 +172,8 @@ each method takes, type two questions marks:
 
 ##Arduino Firmware
 
-<https://github.com/janelia-arduino>
+[Firmware](./firmware)
 
 ##Enclosure
 
-<https://github.com/janelia-modular-devices/modular_device_enclosure>
+[Enclosure](./enclosure)
