@@ -25,3 +25,6 @@
 [submodule "stepper_controller"]
 	path = stepper_controller
 	url = git@github.com:janelia-modular-devices/stepper_controller.git
+[submodule "firmware/modular_device_arduino"]
+	path = firmware/modular_device_arduino
+	url = https://github.com/janelia-arduino/modular_device_arduino.git
