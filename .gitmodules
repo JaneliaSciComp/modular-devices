@@ -28,3 +28,6 @@
 [submodule "firmware/modular_device_arduino"]
 	path = firmware/modular_device_arduino
 	url = https://github.com/janelia-arduino/modular_device_arduino.git
+[submodule "firmware/arduino_standalone_interface"]
+	path = firmware/arduino_standalone_interface
+	url = https://github.com/janelia-arduino/arduino_standalone_interface.git
