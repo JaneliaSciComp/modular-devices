@@ -19,11 +19,11 @@ git submodule update
 
 ##Host Computer Interface
 
-[Python](./host/python)
+[Python](https://github.com/janelia-pypi/modular_device_python)
 
-[Matlab](./host/matlab)
+[Matlab](https://github.com/janelia-modular-devices/modular_device_matlab)
 
-[NodeJS](./host/nodejs)
+[NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs)
 
 ###Arduino Serial Monitor
 
@@ -172,8 +172,8 @@ each method takes, type two questions marks:
 
 ##Arduino Firmware
 
-[Firmware](./firmware)
+[Firmware](https://github.com/janelia-arduino)
 
 ##Enclosure
 
-[Enclosure](./enclosure)
+[Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure)
