@@ -17,6 +17,8 @@ git submodule init
 git submodule update
 ```
 
+[Standalone Interface](./documentation/standalone/)
+
 ##Host Computer Interface
 
 [Python](https://github.com/janelia-pypi/modular_device_python)

@@ -50,8 +50,8 @@ License:
 <img src="standalone_06.jpg" width="640">
 
 * Press the encoder button again to change the current interactive
-  variable back to the device method (in the upper left corner of the
-  screen).
+  variable back to the device method (the blinking cursor back in the
+  upper left corner of the screen).
 
 <img src="standalone_07.jpg" width="640">
 
@@ -75,7 +75,8 @@ License:
 <img src="standalone_11.jpg" width="640">
 
 * Flipping the light switch turns the lights off, even though all of
-  the channels are still on.
+  the channels are still on. The display still shows the text, but the
+  display light is off making it more difficult to read.
 
 <img src="standalone_12.jpg" width="640">
 
