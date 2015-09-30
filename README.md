@@ -172,8 +172,13 @@ each method takes, type two questions marks:
 
 ##Arduino Firmware
 
-[Firmware](https://github.com/janelia-arduino)
+[Install Arduino IDE and Supporting Libraries](https://github.com/janelia-arduino/arduino-libraries)
 
-##Enclosure
+Look in firmware directory of the modular device you want to program
+to find the code to upload to the Arduino using the IDE.
+
+[IDE Instructions](https://www.arduino.cc/en/Guide/Environment)
+
+##Enclosure and Assembly Instructions
 
 [Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure)
