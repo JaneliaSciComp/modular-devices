@@ -1,7 +1,7 @@
 model_number,device_name
-1000,minimal_device (example)
-1001,led_controller (example)
-1002,string_controller (example)
+0,minimal_device (example)
+1,led_controller (example)
+2,string_controller (example)
 1003,standalone_modular_device (example)
 1100,aalborg_mfc_interface
 1110,power_switch_controller
