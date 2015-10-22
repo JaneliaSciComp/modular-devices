@@ -16,170 +16,40 @@ git submodule init
 git submodule update
 ```
 
+##Documentation
+
 [Standalone Interface](./documentation/standalone/)
 
 ##Host Computer Interface
 
-[Python](https://github.com/janelia-pypi/modular_device_python)
+[Python](./host/python)
 
-[Matlab](https://github.com/janelia-modular-devices/modular_device_matlab)
+[Matlab](./host/matlab)
 
-[NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs)
+[NodeJS](./host/nodejs)
 
-###Arduino Serial Monitor
+##Firmware
 
-Open the Serial Monitor in the Arduino IDE.
+[ModularDevice](./firmware/ModularDevice)
 
-Set the baud rate to 9600.
-
-Set the line ending to 'Newline'.
-
-To get help information about the modular device, type a single
-question mark ? into the input field and press the 'Send' button or
-press the 'Enter' key.
-
-```shell
-?
-```
-
-The response will contain a field named "methods", which is an array
-of user methods. To execute a method, simply type it into the input
-field and press the 'Send' button or press the 'Enter' key.
-
-Example Method:
-
-```shell
-getLedsPowered
-```
-
-Example Response:
-
-```json
-{
-  "method":"getLedsPowered",
-  "leds_powered":true,
-  "status":success
-}
-```
-
-Example Method with Parameters:
-
-```shell
-setSerialNumber
-```
-
-Example Response:
-
-```json
-{
-  "method":"setSerialNumber",
-  "status":error,
-  "error_message":"Incorrect number of parameters. 0 given. 1 needed."
-}
-```
-
-To get more information about a single method, enter the method
-followed by a question mark '?'.
-
-Example Method Help:
-
-```shell
-setSerialNumber ?
-```
-
-Example Response:
-
-```json
-{
-  "method":"setSerialNumber",
-  "parameters":[
-    "serial_number"
-  ],
-  "status":success
-}
-```
-
-To get more verbose help about the method, including more information
-about the parameters each method takes, type the method name followed
-by two questions marks '??'.
-
-Example Method Verbose Help:
-
-```shell
-setSerialNumber ??
-```
-
-Example Response:
-
-```json
-{
-  "method":"setSerialNumber",
-  "parameters":[
-    {
-      "serial_number":{
-        "type":"long",
-        "min":0,
-        "max":65535
-      }
-    }
-  ],
-  "status":success
-}
-```
-
-Example Method:
-
-```shell
-setSerialNumber 32
-```
-
-Example Response:
-
-```json
-{
-  "method":"setSerialNumber",
-  "status":success
-}
-```
-
-The serial number setting persists even after the device is powered
-off. The serial number is used to differentiate several identical
-devices connected to a single host machine at one time.
-
-To reset the serial number to the default value, use the resetDefaults
-method.
-
-Example Method:
-
-```shell
-resetDefaults
-```
-
-Example Response:
-
-```json
-{
-  "method":"resetDefaults",
-  "status":success
-}
-```
-
-To get more verbose help, including information about the parameters
-each method takes, type two questions marks:
-
-```shell
-??
-```
-
-##Arduino Firmware
-
-[Install Arduino IDE and Supporting Libraries](https://github.com/janelia-arduino/arduino-libraries)
-
-Look in firmware directory of the modular device you want to program
-to find the code to upload to the Arduino using the IDE.
-
-[IDE Instructions](https://www.arduino.cc/en/Guide/Environment)
+[StandaloneInterface](./firmware/StandaloneInterface)
 
 ##Enclosure and Assembly Instructions
 
-[Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure)
+[Enclosure](./enclosure)
+
+##Modular Devices
+
+[aalborg_mfc_interface](./aalborg_mfc_interface)
+
+[mixed_signal_controller](./mixed_signal_controller)
+
+[power_switch_controller](./power_switch_controller)
+
+[pwm_controller](./pwm_controller)
+
+[stepper_controller](./stepper_controller)
+
+##Modular Device Model Numbers
+
+[model_numbers](./model_numbers.csv)
