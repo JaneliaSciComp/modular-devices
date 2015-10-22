@@ -22,33 +22,33 @@ git submodule update
 
 ##Host Computer Interface
 
-[Python](./host/python)
+[Python](https://github.com/janelia-pypi/modular_device_python.git)
 
-[Matlab](./host/matlab)
+[Matlab](https://github.com/janelia-modular-devices/modular_device_matlab.git)
 
-[NodeJS](./host/nodejs)
+[NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs.git)
 
 ##Firmware
 
-[ModularDevice](./firmware/ModularDevice)
+[ModularDevice](https://github.com/janelia-arduino/ModularDevice)
 
-[StandaloneInterface](./firmware/StandaloneInterface)
+[StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
 ##Enclosure and Assembly Instructions
 
-[Enclosure](./enclosure)
+[Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure.git)
 
 ##Modular Devices
 
-[aalborg_mfc_interface](./aalborg_mfc_interface)
+[aalborg_mfc_interface](https://github.com/janelia-modular-devices/aalborg_mfc_interface.git)
 
-[mixed_signal_controller](./mixed_signal_controller)
+[mixed_signal_controller](https://github.com/janelia-modular-devices/mixed_signal_controller.git)
 
-[power_switch_controller](./power_switch_controller)
+[power_switch_controller](https://github.com/janelia-modular-devices/power_switch_controller)
 
-[pwm_controller](./pwm_controller)
+[pwm_controller](https//github.com:janelia-modular-devices/pwm_controller.git)
 
-[stepper_controller](./stepper_controller)
+[stepper_controller](https//github.com:janelia-modular-devices/stepper_controller.git)
 
 ##Modular Device Model Numbers
 
