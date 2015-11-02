@@ -21,10 +21,10 @@
 	url = https://github.com/janelia-modular-devices/mixed_signal_controller.git
 [submodule "pwm_controller"]
 	path = pwm_controller
-	url = https//github.com:janelia-modular-devices/pwm_controller.git
+	url = https://github.com/janelia-modular-devices/pwm_controller.git
 [submodule "stepper_controller"]
 	path = stepper_controller
-	url = https//github.com:janelia-modular-devices/stepper_controller.git
+	url = https://github.com/janelia-modular-devices/stepper_controller.git
 [submodule "firmware/ModularDevice"]
 	path = firmware/ModularDevice
 	url = https://github.com/janelia-arduino/ModularDevice
