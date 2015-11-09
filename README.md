@@ -46,11 +46,11 @@ git submodule update
 
 [mixed_signal_controller](https://github.com/janelia-modular-devices/mixed_signal_controller.git)
 
-[pwm_controller](https//github.com:janelia-modular-devices/pwm_controller.git)
+[pwm_controller](https://github.com/janelia-modular-devices/pwm_controller.git)
 
-[stepper_controller](https//github.com:janelia-modular-devices/stepper_controller.git)
+[stepper_controller](https://github.com/janelia-modular-devices/stepper_controller.git)
 
-[audio_controller](https//github.com:janelia-modular-devices/audio_controller.git)
+[audio_controller](https://github.com/janelia-modular-devices/audio_controller.git)
 
 ##Modular Device Model Numbers
 
