@@ -31,3 +31,6 @@
 [submodule "firmware/StandaloneInterface"]
 	path = firmware/StandaloneInterface
 	url = https://github.com/janelia-arduino/StandaloneInterface
+[submodule "audio_controller"]
+	path = audio_controller
+	url = https://github.com/janelia-modular-devices/audio_controller.git

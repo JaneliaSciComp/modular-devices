@@ -42,13 +42,15 @@ git submodule update
 
 [aalborg_mfc_interface](https://github.com/janelia-modular-devices/aalborg_mfc_interface.git)
 
-[mixed_signal_controller](https://github.com/janelia-modular-devices/mixed_signal_controller.git)
-
 [power_switch_controller](https://github.com/janelia-modular-devices/power_switch_controller)
+
+[mixed_signal_controller](https://github.com/janelia-modular-devices/mixed_signal_controller.git)
 
 [pwm_controller](https//github.com:janelia-modular-devices/pwm_controller.git)
 
 [stepper_controller](https//github.com:janelia-modular-devices/stepper_controller.git)
+
+[audio_controller](https//github.com:janelia-modular-devices/audio_controller.git)
 
 ##Modular Device Model Numbers
 
