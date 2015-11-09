@@ -1,8 +1,8 @@
-[submodule "aalborg_mfc_interface"]
-	path = aalborg_mfc_interface
+[submodule "devices/aalborg_mfc_interface"]
+	path = devices/aalborg_mfc_interface
 	url = https://github.com/janelia-modular-devices/aalborg_mfc_interface.git
-[submodule "power_switch_controller"]
-	path = power_switch_controller
+[submodule "devices/power_switch_controller"]
+	path = devices/power_switch_controller
 	url = https://github.com/janelia-modular-devices/power_switch_controller
 [submodule "enclosure"]
 	path = enclosure
@@ -16,14 +16,14 @@
 [submodule "host/nodejs"]
 	path = host/nodejs
 	url = https://github.com/janelia-modular-devices/modular_device_nodejs.git
-[submodule "mixed_signal_controller"]
-	path = mixed_signal_controller
+[submodule "devices/mixed_signal_controller"]
+	path = devices/mixed_signal_controller
 	url = https://github.com/janelia-modular-devices/mixed_signal_controller.git
-[submodule "pwm_controller"]
-	path = pwm_controller
+[submodule "devices/pwm_controller"]
+	path = devices/pwm_controller
 	url = https://github.com/janelia-modular-devices/pwm_controller.git
-[submodule "stepper_controller"]
-	path = stepper_controller
+[submodule "devices/stepper_controller"]
+	path = devices/stepper_controller
 	url = https://github.com/janelia-modular-devices/stepper_controller.git
 [submodule "firmware/ModularDevice"]
 	path = firmware/ModularDevice
@@ -31,6 +31,6 @@
 [submodule "firmware/StandaloneInterface"]
 	path = firmware/StandaloneInterface
 	url = https://github.com/janelia-arduino/StandaloneInterface
-[submodule "audio_controller"]
-	path = audio_controller
+[submodule "devices/audio_controller"]
+	path = devices/audio_controller
 	url = https://github.com/janelia-modular-devices/audio_controller.git
