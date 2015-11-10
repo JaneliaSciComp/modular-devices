@@ -16,9 +16,14 @@ git submodule init
 git submodule update
 ```
 
-##Documentation
+##Firmware
 
-[Standalone Interface](./documentation/standalone/)
+README files in examples directory of the ModularDevice firmware
+repository are a great place to start reading...
+
+[ModularDevice](https://github.com/janelia-arduino/ModularDevice)
+
+[StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
 ##Host Computer Interface
 
@@ -28,11 +33,9 @@ git submodule update
 
 [NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs.git)
 
-##Firmware
+##Additional Documentation
 
-[ModularDevice](https://github.com/janelia-arduino/ModularDevice)
-
-[StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
+[Standalone Interface](./documentation/standalone/)
 
 ##Enclosure and Assembly Instructions
 
