@@ -58,7 +58,7 @@ to call methods on modular device servers. Users can interact with
 remote modular devices over a serial port using simple serial
 terminals, such as the Arduino IDE serial monitor, cutecom, PuTTY etc.
 
-##Firmware
+##Modular Device Server
 
 README files in examples directory of the ModularDevice firmware
 repository are a great place to start reading...
@@ -67,19 +67,125 @@ repository are a great place to start reading...
 
 [StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
-##Host Computer Interface
+Example Server API
+
+```json
+{
+  "device_info":{
+    "name":"led_controller",
+    "model_number":1001,
+    "serial_number":0,
+    "firmware_version":{
+      "major":0,
+      "minor":1,
+      "patch":0
+    }
+  },
+  "methods":[
+    {
+      "name":"getMemoryFree",
+      "parameters":[],
+      "result_type":"long"
+    },
+    {
+      "name":"resetDefaults",
+      "parameters":[],
+      "result_type":null
+    },
+    {
+      "name":"setSerialNumber",
+      "parameters":[
+        "serial_number"
+      ],
+      "result_type":null
+    },
+    {
+      "name":"setLedOn",
+      "parameters":[],
+      "result_type":null
+    },
+    {
+      "name":"setLedOff",
+      "parameters":[],
+      "result_type":null
+    },
+    {
+      "name":"getLedPin",
+      "parameters":[],
+      "result_type":"long"
+    },
+    {
+      "name":"blinkLed",
+      "parameters":[
+        "duration_on",
+        "duration_off",
+        "count"
+      ],
+      "result_type":null
+    }
+  ],
+  "parameters":[
+    {
+      "name":"serial_number",
+      "type":"long",
+      "min":0,
+      "max":65535
+    },
+    {
+      "name":"duration_on",
+      "units":"seconds",
+      "type":"double",
+      "min":0.100000,
+      "max":2.500000
+    },
+    {
+      "name":"duration_off",
+      "units":"seconds",
+      "type":"double",
+      "min":0.100000,
+      "max":2.500000
+    },
+    {
+      "name":"count",
+      "type":"long",
+      "min":1,
+      "max":100
+    }
+  ],
+}
+```
+
+##Modular Device Client
 
 ###Serial Terminal
 
 [Serial Terminal](https://github.com/janelia-modular-devices/modular_device_serial_terminal.git)
 
+Example Method Call
+
+```shell
+blinkLed 0.5 0.5 10
+```
+
 ###Python
 
 [Python](https://github.com/janelia-pypi/modular_device_python.git)
 
+Example Method Call
+
+```python
+dev.blink_led(0.5,0.5,10)
+```
+
 ###Matlab
 
 [Matlab](https://github.com/janelia-modular-devices/modular_device_matlab.git)
+
+Example Method Call
+
+```matlab
+dev.blinkLed(0.5,0.5,10)
+```
 
 ###NodeJS
 
