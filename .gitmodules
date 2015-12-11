@@ -28,9 +28,6 @@
 [submodule "server/arduino/ModularServer"]
 	path = server/arduino/ModularServer
 	url = https://github.com/janelia-arduino/ModularServer.git
-[submodule "server/arduino/StandaloneInterface"]
-	path = server/arduino/StandaloneInterface
-	url = https://github.com/janelia-arduino/StandaloneInterface.git
 [submodule "client/python"]
 	path = client/python
 	url = https://github.com/janelia-pypi/modular_device_python.git
