@@ -60,14 +60,16 @@ terminals, such as the Arduino IDE serial monitor, cutecom, PuTTY etc.
 
 ##Modular Device Server
 
-README files in examples directory of the ModularDevice firmware
+###Firmware for Arduino-like Devices
+
+README files in examples directory of the ModularServer firmware
 repository are a great place to start reading...
 
-[ModularDevice](https://github.com/janelia-arduino/ModularDevice)
+[ModularServer](https://github.com/janelia-arduino/ModularServer)
 
 [StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
-Example Server API
+###Example Server API
 
 ```json
 {
