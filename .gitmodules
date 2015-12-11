@@ -40,3 +40,6 @@
 [submodule "documentation/serial_terminal"]
 	path = documentation/serial_terminal
 	url = https://github.com/janelia-modular-devices/modular_device_serial_terminal.git
+[submodule "firmware/ModularServer"]
+	path = firmware/ModularServer
+	url = https://github.com/janelia-arduino/ModularServer.git
