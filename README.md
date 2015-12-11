@@ -164,30 +164,44 @@ interacting with modular devices.
 
 [Serial Terminal](https://github.com/janelia-modular-devices/modular_device_serial_terminal.git)
 
-Example Method Call
+Example Method Calls
 
 ```shell
 blinkLed 0.5 0.5 10
+getLedPin
 ```
 
 ###Python
 
 [Python](https://github.com/janelia-pypi/modular_device_python.git)
 
-Example Method Call
+Example Method Calls
 
 ```python
 dev.blink_led(0.5,0.5,10)
+led_pin = dev.get_led_pin()
 ```
 
 ###Matlab
 
 [Matlab](https://github.com/janelia-modular-devices/modular_device_matlab.git)
 
-Example Method Call
+Example Method Calls
 
 ```matlab
 dev.blinkLed(0.5,0.5,10)
+led_pin = dev.getLedPin()
+```
+
+###Arduino
+
+[ModularDevice](https://github.com/janelia-arduino/ModularDevice.git)
+
+Example Method Calls
+
+```c++
+dev.callServerMethod("blinkLed",0.5,0.5,10);
+long led_pin = dev.callServerMethod("getLedPin");
 ```
 
 ###NodeJS
