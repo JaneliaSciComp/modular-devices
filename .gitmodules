@@ -1,6 +1,3 @@
-[submodule "firmware/ModularServer"]
-	path = firmware/ModularServer
-	url = https://github.com/janelia-arduino/ModularServer
 [submodule "firmware/StandaloneInterface"]
 	path = firmware/StandaloneInterface
 	url = https://github.com/janelia-arduino/StandaloneInterface
