@@ -1,15 +1,3 @@
-[submodule "firmware/StandaloneInterface"]
-	path = firmware/StandaloneInterface
-	url = https://github.com/janelia-arduino/StandaloneInterface
-[submodule "host/python"]
-	path = host/python
-	url = https://github.com/janelia-pypi/modular_device_python.git
-[submodule "host/matlab"]
-	path = host/matlab
-	url = https://github.com/janelia-modular-devices/modular_device_matlab.git
-[submodule "host/nodejs"]
-	path = host/nodejs
-	url = https://github.com/janelia-modular-devices/modular_device_nodejs.git
 [submodule "enclosure"]
 	path = enclosure
 	url = https://github.com/janelia-modular-devices/modular_device_enclosure.git
@@ -40,6 +28,3 @@
 [submodule "documentation/serial_terminal"]
 	path = documentation/serial_terminal
 	url = https://github.com/janelia-modular-devices/modular_device_serial_terminal.git
-[submodule "firmware/ModularServer"]
-	path = firmware/ModularServer
-	url = https://github.com/janelia-arduino/ModularServer.git
