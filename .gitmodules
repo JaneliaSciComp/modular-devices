@@ -28,3 +28,24 @@
 [submodule "documentation/serial_terminal"]
 	path = documentation/serial_terminal
 	url = https://github.com/janelia-modular-devices/modular_device_serial_terminal.git
+[submodule "server/arduino/ModularServer"]
+	path = server/arduino/ModularServer
+	url = https://github.com/janelia-arduino/ModularServer.git
+[submodule "server/arduino/StandaloneInterface"]
+	path = server/arduino/StandaloneInterface
+	url = https://github.com/janelia-arduino/StandaloneInterface.git
+[submodule "client/python"]
+	path = client/python
+	url = https://github.com/janelia-pypi/modular_device_python.git
+[submodule "client/matlab"]
+	path = client/matlab
+	url = https://github.com/janelia-modular-devices/modular_device_matlab.git
+[submodule "client/nodejs"]
+	path = client/nodejs
+	url = https://github.com/janelia-modular-devices/modular_device_nodejs.git
+[submodule "server/python"]
+	path = server/python
+	url = https://github.com/janelia-pypi/modular_server_python.git
+[submodule "client/arduino"]
+	path = client/arduino
+	url = https://github.com/janelia-arduino/ModularDevice.git
