@@ -46,3 +46,6 @@
 [submodule "client/arduino"]
 	path = client/arduino
 	url = https://github.com/janelia-arduino/ModularDevice.git
+[submodule "client/serial_terminal"]
+	path = client/serial_terminal
+	url = https://github.com/janelia-modular-devices/modular_device_serial_terminal.git
