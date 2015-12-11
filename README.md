@@ -68,7 +68,7 @@ interacting with modular devices.
 
 [ModularServer](https://github.com/janelia-arduino/ModularServer)
 
-[ModularStandalone](https://github.com/janelia-arduino/ModularStandalone)
+[StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
 ###Example Server API
 
