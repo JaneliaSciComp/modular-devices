@@ -41,7 +41,10 @@ clients through communication channels.
 Modular devices can be both clients and/or servers and devices
 communicate with one another using [JSON](http://www.json.org/)
 strings. Any communication channel capable of sending and receiving
-JSON strings can used to connect modular devices to each other.
+JSON strings can used to connect modular devices to each
+other. Servers may listen for client method calls on multiple
+communication channels simultaneously and a device may use a single
+communication channel for both server and client communications.
 
 Modular devices implemented on Arduino-like boards and processors
 communicate over serial UART channels. Arduino-like modular devices
