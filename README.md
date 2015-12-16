@@ -20,7 +20,7 @@ git submodule update
 
 Modular devices are computers or electronics with microprocessors that
 implement the
-[modular device interface](https://github.com/janelia-modular-devices/modular_device_interface.git)
+[modular device protocol](https://github.com/janelia-modular-devices/modular_device_protocol.git)
 in software or firmware. Modular devices have methods that can be
 executed locally or remotely over a communication bus with a
 client/server architecture.
