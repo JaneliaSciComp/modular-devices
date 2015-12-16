@@ -22,9 +22,6 @@
 [submodule "documentation/standalone_interface"]
 	path = documentation/standalone_interface
 	url = https://github.com/janelia-modular-devices/modular_device_standalone_interface.git
-[submodule "documentation/interface"]
-	path = documentation/interface
-	url = https://github.com/janelia-modular-devices/modular_device_interface.git
 [submodule "server/arduino/ModularServer"]
 	path = server/arduino/ModularServer
 	url = https://github.com/janelia-arduino/ModularServer.git
