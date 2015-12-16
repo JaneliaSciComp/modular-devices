@@ -46,3 +46,6 @@
 [submodule "server/arduino/StandaloneInterface"]
 	path = server/arduino/StandaloneInterface
 	url = https://github.com/janelia-arduino/StandaloneInterface.git
+[submodule "documentation/protocol"]
+	path = documentation/protocol
+	url = https://github.com/janelia-modular-devices/modular_device_protocol.git
