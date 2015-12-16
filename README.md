@@ -38,6 +38,10 @@ or command line. Alternatively, server methods may be triggered by
 external sources such as TTL signals or calls from modular device
 clients through communication channels.
 
+Modular device clients call server methods by sending the server
+requests and the server handles the request and sends back a response
+to the client.
+
 Modular devices can be both clients and/or servers and devices
 communicate with one another using [JSON](http://www.json.org/)
 strings. Any communication channel capable of sending and receiving
