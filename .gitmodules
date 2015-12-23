@@ -46,3 +46,6 @@
 [submodule "documentation/protocol"]
 	path = documentation/protocol
 	url = https://github.com/janelia-modular-devices/modular_device_protocol.git
+[submodule "client/matlab"]
+	path = client/matlab
+	url = https://github.com/janelia-matlab/modular_device_matlab.git
