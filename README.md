@@ -191,7 +191,7 @@ led_pin = dev.get_led_pin()
 
 ###Matlab
 
-[Matlab](https://github.com/janelia-modular-devices/modular_device_matlab.git)
+[Matlab](https://github.com/janelia-matlab/modular_device_matlab.git)
 
 Example Method Calls
 
