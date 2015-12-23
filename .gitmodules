@@ -28,9 +28,6 @@
 [submodule "client/python"]
 	path = client/python
 	url = https://github.com/janelia-pypi/modular_device_python.git
-[submodule "client/matlab"]
-	path = client/matlab
-	url = https://github.com/janelia-modular-devices/modular_device_matlab.git
 [submodule "client/nodejs"]
 	path = client/nodejs
 	url = https://github.com/janelia-modular-devices/modular_device_nodejs.git
