@@ -164,5 +164,5 @@ mpide
 ```shell
 # after MPIDE starts, go to File : Preferences
 # verify Sketchbook location:
-# /home/<yourusername>/Arduino
+# /home/<yourusername>/git/modular-devices/server/arduino
 ```
