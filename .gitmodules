@@ -67,3 +67,6 @@
 [submodule "server/arduino/Array"]
 	path = server/arduino/Array
 	url = https://github.com/janelia-arduino/Array.git
+[submodule "server/arduino/Vector"]
+	path = server/arduino/Vector
+	url = https://github.com/janelia-arduino/Vector.git
