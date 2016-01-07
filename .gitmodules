@@ -64,3 +64,6 @@
 [submodule "server/arduino/JsonStream"]
 	path = server/arduino/JsonStream
 	url = https://github.com/janelia-arduino/JsonStream.git
+[submodule "server/arduino/Array"]
+	path = server/arduino/Array
+	url = https://github.com/janelia-arduino/Array.git
