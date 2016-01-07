@@ -40,3 +40,36 @@
 [submodule "client/matlab"]
 	path = client/matlab
 	url = https://github.com/janelia-matlab/modular_device_matlab.git
+[submodule "server/arduino/libraries/Flash"]
+	path = server/arduino/libraries/Flash
+	url = https://github.com/janelia-arduino/Flash.git
+[submodule "server/arduino/libraries/Streaming"]
+	path = server/arduino/libraries/Streaming
+	url = https://github.com/janelia-arduino/Streaming.git
+[submodule "server/arduino/libraries/ArduinoJson"]
+	path = server/arduino/libraries/ArduinoJson
+	url = https://github.com/janelia-arduino/ArduinoJson.git
+[submodule "server/arduino/libraries/JsonSanitizer"]
+	path = server/arduino/libraries/JsonSanitizer
+	url = https://github.com/janelia-arduino/JsonSanitizer.git
+[submodule "server/arduino/libraries/JsonStream"]
+	path = server/arduino/libraries/JsonStream
+	url = https://github.com/janelia-arduino/JsonStream.git
+[submodule "server/arduino/libraries/Array"]
+	path = server/arduino/libraries/Array
+	url = https://github.com/janelia-arduino/Array.git
+[submodule "server/arduino/libraries/Vector"]
+	path = server/arduino/libraries/Vector
+	url = https://github.com/janelia-arduino/Vector.git
+[submodule "server/arduino/libraries/MemoryFree"]
+	path = server/arduino/libraries/MemoryFree
+	url = https://github.com/janelia-arduino/MemoryFree.git
+[submodule "server/arduino/libraries/ConstantVariable"]
+	path = server/arduino/libraries/ConstantVariable
+	url = https://github.com/janelia-arduino/ConstantVariable.git
+[submodule "server/arduino/libraries/SavedVariable"]
+	path = server/arduino/libraries/SavedVariable
+	url = https://github.com/janelia-arduino/SavedVariable.git
+[submodule "server/arduino/libraries/ModularServer"]
+	path = server/arduino/libraries/ModularServer
+	url = https://github.com/janelia-arduino/ModularServer.git
