@@ -76,3 +76,6 @@
 [submodule "server/arduino/ConstantVariable"]
 	path = server/arduino/ConstantVariable
 	url = https://github.com/janelia-arduino/ConstantVariable.git
+[submodule "server/arduino/SavedVariable"]
+	path = server/arduino/SavedVariable
+	url = https://github.com/janelia-arduino/SavedVariable.git
