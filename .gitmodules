@@ -58,3 +58,6 @@
 [submodule "server/arduino/ArduinoJson"]
 	path = server/arduino/ArduinoJson
 	url = https://github.com/janelia-arduino/ArduinoJson.git
+[submodule "server/arduino/JsonSanitizer"]
+	path = server/arduino/JsonSanitizer
+	url = https://github.com/janelia-arduino/JsonSanitizer.git
