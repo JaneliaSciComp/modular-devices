@@ -73,3 +73,6 @@
 [submodule "server/arduino/MemoryFree"]
 	path = server/arduino/MemoryFree
 	url = https://github.com/janelia-arduino/MemoryFree.git
+[submodule "server/arduino/ConstantVariable"]
+	path = server/arduino/ConstantVariable
+	url = https://github.com/janelia-arduino/ConstantVariable.git
