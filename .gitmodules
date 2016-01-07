@@ -52,3 +52,6 @@
 [submodule "server/arduino/Flash"]
 	path = server/arduino/Flash
 	url = https://github.com/janelia-arduino/Flash.git
+[submodule "server/arduino/Streaming"]
+	path = server/arduino/Streaming
+	url = https://github.com/janelia-arduino/Streaming.git
