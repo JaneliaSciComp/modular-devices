@@ -49,3 +49,6 @@
 [submodule "client/matlab"]
 	path = client/matlab
 	url = https://github.com/janelia-matlab/modular_device_matlab.git
+[submodule "server/arduino/Flash"]
+	path = server/arduino/Flash
+	url = https://github.com/janelia-arduino/Flash.git
