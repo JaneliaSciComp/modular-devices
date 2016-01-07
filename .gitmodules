@@ -22,9 +22,6 @@
 [submodule "documentation/standalone_interface"]
 	path = documentation/standalone_interface
 	url = https://github.com/janelia-modular-devices/modular_device_standalone_interface.git
-[submodule "server/arduino/ModularServer"]
-	path = server/arduino/ModularServer
-	url = https://github.com/janelia-arduino/ModularServer.git
 [submodule "client/python"]
 	path = client/python
 	url = https://github.com/janelia-pypi/modular_device_python.git
@@ -34,48 +31,12 @@
 [submodule "server/python"]
 	path = server/python
 	url = https://github.com/janelia-pypi/modular_server_python.git
-[submodule "client/arduino"]
-	path = client/arduino
-	url = https://github.com/janelia-arduino/ModularDevice.git
 [submodule "client/serial_terminal"]
 	path = client/serial_terminal
 	url = https://github.com/janelia-modular-devices/modular_device_serial_terminal.git
-[submodule "server/arduino/StandaloneInterface"]
-	path = server/arduino/StandaloneInterface
-	url = https://github.com/janelia-arduino/StandaloneInterface.git
 [submodule "documentation/protocol"]
 	path = documentation/protocol
 	url = https://github.com/janelia-modular-devices/modular_device_protocol.git
 [submodule "client/matlab"]
 	path = client/matlab
 	url = https://github.com/janelia-matlab/modular_device_matlab.git
-[submodule "server/arduino/Flash"]
-	path = server/arduino/Flash
-	url = https://github.com/janelia-arduino/Flash.git
-[submodule "server/arduino/Streaming"]
-	path = server/arduino/Streaming
-	url = https://github.com/janelia-arduino/Streaming.git
-[submodule "server/arduino/ArduinoJson"]
-	path = server/arduino/ArduinoJson
-	url = https://github.com/janelia-arduino/ArduinoJson.git
-[submodule "server/arduino/JsonSanitizer"]
-	path = server/arduino/JsonSanitizer
-	url = https://github.com/janelia-arduino/JsonSanitizer.git
-[submodule "server/arduino/JsonStream"]
-	path = server/arduino/JsonStream
-	url = https://github.com/janelia-arduino/JsonStream.git
-[submodule "server/arduino/Array"]
-	path = server/arduino/Array
-	url = https://github.com/janelia-arduino/Array.git
-[submodule "server/arduino/Vector"]
-	path = server/arduino/Vector
-	url = https://github.com/janelia-arduino/Vector.git
-[submodule "server/arduino/MemoryFree"]
-	path = server/arduino/MemoryFree
-	url = https://github.com/janelia-arduino/MemoryFree.git
-[submodule "server/arduino/ConstantVariable"]
-	path = server/arduino/ConstantVariable
-	url = https://github.com/janelia-arduino/ConstantVariable.git
-[submodule "server/arduino/SavedVariable"]
-	path = server/arduino/SavedVariable
-	url = https://github.com/janelia-arduino/SavedVariable.git
