@@ -73,3 +73,15 @@
 [submodule "server/arduino/libraries/ModularServer"]
 	path = server/arduino/libraries/ModularServer
 	url = https://github.com/janelia-arduino/ModularServer.git
+[submodule "server/arduino/libraries/BetterMap"]
+	path = server/arduino/libraries/BetterMap
+	url = https://github.com/janelia-arduino/BetterMap.git
+[submodule "server/arduino/libraries/NewhavenDisplay"]
+	path = server/arduino/libraries/NewhavenDisplay
+	url = https://github.com/janelia-arduino/NewhavenDisplay.git
+[submodule "server/arduino/libraries/Encoder"]
+	path = server/arduino/libraries/Encoder
+	url = https://github.com/janelia-arduino/Encoder.git
+[submodule "server/arduino/libraries/StandaloneInterface"]
+	path = server/arduino/libraries/StandaloneInterface
+	url = https://github.com/janelia-arduino/StandaloneInterface.git
