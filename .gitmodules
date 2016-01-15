@@ -85,3 +85,24 @@
 [submodule "server/arduino/libraries/StandaloneInterface"]
 	path = server/arduino/libraries/StandaloneInterface
 	url = https://github.com/janelia-arduino/StandaloneInterface.git
+[submodule "client/arduino/libraries/Flash"]
+	path = client/arduino/libraries/Flash
+	url = https://github.com/janelia-arduino/Flash.git
+[submodule "client/arduino/libraries/Streaming"]
+	path = client/arduino/libraries/Streaming
+	url = https://github.com/janelia-arduino/Streaming.git
+[submodule "client/arduino/libraries/ArduinoJson"]
+	path = client/arduino/libraries/ArduinoJson
+	url = https://github.com/janelia-arduino/ArduinoJson.git
+[submodule "client/arduino/libraries/JsonStream"]
+	path = client/arduino/libraries/JsonStream
+	url = https://github.com/janelia-arduino/JsonStream.git
+[submodule "client/arduino/libraries/Array"]
+	path = client/arduino/libraries/Array
+	url = https://github.com/janelia-arduino/Array.git
+[submodule "client/arduino/libraries/ConstantVariable"]
+	path = client/arduino/libraries/ConstantVariable
+	url = https://github.com/janelia-arduino/ConstantVariable.git
+[submodule "client/arduino/libraries/ModularDevice"]
+	path = client/arduino/libraries/ModularDevice
+	url = https://github.com/janelia-arduino/ModularDevice.git
