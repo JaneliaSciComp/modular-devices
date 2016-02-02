@@ -9,3 +9,4 @@ model_number,device_name
 1130,pwm_controller
 1140,stepper_controller
 1150,audio_controller
+1160,led_controller
