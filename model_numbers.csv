@@ -11,3 +11,4 @@ model_number,device_name
 1150,audio_controller
 1160,led_controller
 1170,h_bridge_controller
+1180,encoder_interface
