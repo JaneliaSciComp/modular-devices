@@ -77,6 +77,10 @@ interacting with modular devices.
 
 [StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
 
+####Instructions for the Arduino Libraries Necessary to Compile the Firmware
+
+[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
+
 ###Example Server API
 
 ```json
@@ -210,6 +214,10 @@ Example Method Calls
 dev.callServerMethod("blinkLed",0.5,0.5,10);
 long led_pin = dev.callServerMethod("getLedPin");
 ```
+
+####Instructions for the Arduino Libraries Necessary to Compile the Firmware
+
+[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
 
 ###NodeJS
 
