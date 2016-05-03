@@ -22,6 +22,11 @@ git submodule update
 
 ##Introduction
 
+Modular devices extend object oriented software into object oriented
+hardware, allowing you to create hardware objects with methods for
+executing actions, parameters for passing information to the methods,
+and fields for storing data internally.
+
 Modular devices are computers or electronics with microprocessors that
 implement the
 [modular device protocol](https://github.com/janelia-modular-devices/modular_device_protocol.git)
@@ -34,7 +39,7 @@ some action. Each method takes zero or more parameters to specify the
 action and methods may or may not return a value. Parameters and
 return values can be any JSON type, including objects with key/value
 pairs, arrays with an ordered collection of values, strings, numbers,
-booleans, or null.
+booleans, or null. Fields are used for storing data in the device.
 
 Server methods may be triggered by changes on the local device, such
 as timers expiring, buttons pressed, encoders turned, or through a GUI
