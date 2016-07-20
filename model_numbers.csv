@@ -1,17 +1,18 @@
-model_number,device_name
-1000,minimal_device (example)
-1001,board_led_controller (example)
-1002,string_controller (example)
-1003,field_tester (example)
-1010,standalone_modular_device (example)
-1100,aalborg_mfc_interface
-1110,power_switch_controller
-1120,mixed_signal_controller
-1130,pwm_controller
-1140,stepper_controller
-1150,audio_controller
-1160,led_controller
-1170,h_bridge_controller
-1180,encoder_interface
-1190,relay_controller
+model_number,device_name,form_factor
+1000,minimal_device,firmware_example
+1001,board_led_controller,firmware_example
+1002,string_controller,firmware_example
+1003,field_tester,firmware_example
+1010,standalone_modular_device,firmware_example
+1100,aalborg_mfc_interface,mega
+1110,power_switch_controller,mega
+1111,power_switch_controller,teensy
+1120,mixed_signal_controller,mega
+1130,pwm_controller,mega
+1140,stepper_controller,mega
+1150,audio_controller,mega
+1160,led_controller,mega
+1170,h_bridge_controller,mega
+1180,encoder_interface,mega
+1190,relay_controller,mega
 
