@@ -15,4 +15,5 @@ model_number,device_name,form_factor
 1170,h_bridge_controller,mega
 1180,encoder_interface,mega
 1190,relay_controller,mega
+1201,user_interface,teensy
 
