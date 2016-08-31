@@ -11,7 +11,7 @@ model_number,device_name,form_factor
 1130,pwm_controller,mega
 1140,stepper_controller,mega
 1141,stepper_controller,teensy
-1150,audio_controller,mega
+1151,audio_controller,teensy
 1160,led_controller,mega
 1170,h_bridge_controller,mega
 1180,encoder_interface,mega
