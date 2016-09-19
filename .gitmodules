@@ -103,3 +103,12 @@
 [submodule "server/arduino/libraries/Flash"]
 	path = server/arduino/libraries/Flash
 	url = https://github.com/janelia-arduino/Flash.git
+[submodule "devices/user_interface"]
+	path = devices/user_interface
+	url = https://github.com/janelia-modular-devices/user_interface.git
+[submodule "devices/relay_controller"]
+	path = devices/relay_controller
+	url = https://github.com/janelia-modular-devices/relay_controller.git
+[submodule "devices/h_bridge_controller"]
+	path = devices/h_bridge_controller
+	url = https://github.com/janelia-modular-devices/h_bridge_controller.git
