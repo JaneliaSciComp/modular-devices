@@ -84,15 +84,9 @@ interacting with modular devices.
 
 [ModularServer](https://github.com/janelia-arduino/ModularServer)
 
-[StandaloneInterface](https://github.com/janelia-arduino/StandaloneInterface)
-
 ####Instructions for the Arduino Libraries Necessary to Compile the Firmware
 
 [arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
-
-###Example Server API
-
-[Field Tester API](./server/arduino/libraries/ModularServer/examples/FieldTester/API.txt)
 
 ##Modular Device Client
 
