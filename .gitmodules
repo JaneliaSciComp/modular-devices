@@ -37,9 +37,6 @@
 [submodule "documentation/protocol"]
 	path = documentation/protocol
 	url = https://github.com/janelia-modular-devices/modular_device_protocol.git
-[submodule "server/arduino/libraries/Flash"]
-	path = server/arduino/libraries/Flash
-	url = https://github.com/janelia-arduino/Flash.git
 [submodule "server/arduino/libraries/Streaming"]
 	path = server/arduino/libraries/Streaming
 	url = https://github.com/janelia-arduino/Streaming.git
@@ -73,12 +70,6 @@
 [submodule "server/arduino/libraries/BetterMap"]
 	path = server/arduino/libraries/BetterMap
 	url = https://github.com/janelia-arduino/BetterMap.git
-[submodule "server/arduino/libraries/NewhavenDisplay"]
-	path = server/arduino/libraries/NewhavenDisplay
-	url = https://github.com/janelia-arduino/NewhavenDisplay.git
-[submodule "server/arduino/libraries/StandaloneInterface"]
-	path = server/arduino/libraries/StandaloneInterface
-	url = https://github.com/janelia-arduino/StandaloneInterface.git
 [submodule "client/arduino/libraries/Flash"]
 	path = client/arduino/libraries/Flash
 	url = https://github.com/janelia-arduino/Flash.git
