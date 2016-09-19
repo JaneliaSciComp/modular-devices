@@ -242,6 +242,8 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 ##Modular Devices
 
+[modular_device_teensy](https://github.com/janelia-modular-devices/modular_device_teensy.git)
+
 [aalborg_mfc_interface](https://github.com/janelia-modular-devices/aalborg_mfc_interface.git)
 
 [power_switch_controller](https://github.com/janelia-modular-devices/power_switch_controller)
