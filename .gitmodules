@@ -100,3 +100,6 @@
 [submodule "devices/led_controller"]
 	path = devices/led_controller
 	url = https://github.com/janelia-modular-devices/led_controller.git
+[submodule "server/arduino/libraries/Flash"]
+	path = server/arduino/libraries/Flash
+	url = https://github.com/janelia-arduino/Flash.git
