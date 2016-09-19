@@ -254,6 +254,16 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 [audio_controller](https://github.com/janelia-modular-devices/audio_controller.git)
 
+[led_controller](https://github.com/janelia-modular-devices/led_controller.git)
+
+[h_bridge_controller](https://github.com/janelia-modular-devices/h_bridge_controller.git)
+
+[encoder_interface](https://github.com/janelia-modular-devices/encoder_interface.git)
+
+[relay_controller](https://github.com/janelia-modular-devices/relay_controller.git)
+
+[user_interface](https://github.com/janelia-modular-devices/user_interface.git)
+
 ##Modular Device Model Numbers
 
 [model_numbers](./model_numbers.csv)
