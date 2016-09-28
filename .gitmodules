@@ -109,3 +109,6 @@
 [submodule "client/matlab"]
 	path = client/matlab
 	url = https://github.com/janelia-matlab/modular_client_matlab.git
+[submodule "client/labview"]
+	path = client/labview
+	url = https://github.com/janelia-labview/modular_client_labview.git
