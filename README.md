@@ -125,7 +125,7 @@ led_pin = dev.getLedPin()
 
 ###Arduino
 
-[ModularDevice](https://github.com/janelia-arduino/ModularDevice.git)
+[ModularClient](https://github.com/janelia-arduino/ModularClient.git)
 
 Example Method Calls
 
