@@ -109,3 +109,6 @@
 [submodule "client/arduino/libraries/ModularClient"]
 	path = client/arduino/libraries/ModularClient
 	url = https://github.com/janelia-arduino/ModularClient.git
+[submodule "client/python"]
+	path = client/python
+	url = https://github.com/janelia-pypi/modular_client_python.git
