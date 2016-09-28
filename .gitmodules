@@ -109,3 +109,6 @@
 [submodule "devices/h_bridge_controller"]
 	path = devices/h_bridge_controller
 	url = https://github.com/janelia-modular-devices/h_bridge_controller.git
+[submodule "client/arduino/libraries/ModularClient"]
+	path = client/arduino/libraries/ModularClient
+	url = https://github.com/janelia-arduino/ModularClient.git
