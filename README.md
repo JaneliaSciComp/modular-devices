@@ -103,7 +103,7 @@ getLedPin
 
 ###Python
 
-[Python](https://github.com/janelia-pypi/modular_device_python.git)
+[Python](https://github.com/janelia-pypi/modular_client_python.git)
 
 Example Method Calls
 
