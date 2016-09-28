@@ -88,9 +88,6 @@
 [submodule "client/arduino/libraries/ConstantVariable"]
 	path = client/arduino/libraries/ConstantVariable
 	url = https://github.com/janelia-arduino/ConstantVariable.git
-[submodule "client/arduino/libraries/ModularDevice"]
-	path = client/arduino/libraries/ModularDevice
-	url = https://github.com/janelia-arduino/ModularDevice.git
 [submodule "server/arduino/libraries/Encoder"]
 	path = server/arduino/libraries/Encoder
 	url = https://github.com/janelia-arduino/Encoder.git
