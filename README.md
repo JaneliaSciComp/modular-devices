@@ -138,10 +138,6 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 [arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
 
-###NodeJS
-
-[NodeJS](https://github.com/janelia-modular-devices/modular_device_nodejs.git)
-
 ##Standalone Interface Documentation
 
 [Standalone Interface](https://github.com/janelia-modular-devices/modular_device_standalone_interface.git)
