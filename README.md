@@ -103,7 +103,7 @@ getLedPin
 
 ###Python
 
-[Python](https://github.com/janelia-pypi/modular_client_python.git)
+[modular_client_python](https://github.com/janelia-pypi/modular_client_python.git)
 
 Example Method Calls
 
@@ -114,7 +114,7 @@ led_pin = dev.get_led_pin()
 
 ###Matlab
 
-[Matlab](https://github.com/janelia-matlab/modular_client_matlab.git)
+[modular_client_matlab](https://github.com/janelia-matlab/modular_client_matlab.git)
 
 Example Method Calls
 
@@ -133,6 +133,10 @@ Example Method Calls
 dev.callServerMethod("blinkLed",0.5,0.5,10);
 long led_pin = dev.callServerMethod("getLedPin");
 ```
+
+###Labview
+
+[modular_client_labview](https://github.com/janelia-labview/modular_client_labview.git)
 
 ####Instructions for the Arduino Libraries Necessary to Compile the Firmware
 
