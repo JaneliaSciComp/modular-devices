@@ -88,9 +88,6 @@
 [submodule "server/arduino/libraries/Encoder"]
 	path = server/arduino/libraries/Encoder
 	url = https://github.com/janelia-arduino/Encoder.git
-[submodule "client/matlab"]
-	path = client/matlab
-	url = https://github.com/janelia-matlab/modular_device_matlab.git
 [submodule "devices/led_controller"]
 	path = devices/led_controller
 	url = https://github.com/janelia-modular-devices/led_controller.git
