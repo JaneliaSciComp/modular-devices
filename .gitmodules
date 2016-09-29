@@ -52,3 +52,6 @@
 [submodule "client/labview"]
 	path = client/labview
 	url = https://github.com/janelia-labview/modular_client_labview.git
+[submodule "client/arduino"]
+	path = client/arduino
+	url = https://github.com/janelia-arduino/ModularClient.git
