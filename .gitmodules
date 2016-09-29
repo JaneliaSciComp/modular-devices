@@ -55,3 +55,6 @@
 [submodule "client/arduino"]
 	path = client/arduino
 	url = https://github.com/janelia-arduino/ModularClient.git
+[submodule "server/arduino"]
+	path = server/arduino
+	url = https://github.com/janelia-arduino/ModularServer.git
