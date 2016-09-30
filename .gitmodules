@@ -58,3 +58,6 @@
 [submodule "server/arduino"]
 	path = server/arduino
 	url = https://github.com/janelia-arduino/ModularServer.git
+[submodule "devices/modular_device_teensy"]
+	path = devices/modular_device_teensy
+	url = https://github.com/janelia-modular-devices/modular_device_teensy.git
