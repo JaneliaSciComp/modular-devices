@@ -138,14 +138,6 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 [modular_client_labview](https://github.com/janelia-labview/modular_client_labview.git)
 
-####Instructions for the Arduino Libraries Necessary to Compile the Firmware
-
-[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
-
-##Standalone Interface Documentation
-
-[Standalone Interface](https://github.com/janelia-modular-devices/modular_device_standalone_interface.git)
-
 ##Enclosure and Assembly Instructions
 
 [Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure.git)
@@ -176,6 +168,6 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 [user_interface](https://github.com/janelia-modular-devices/user_interface.git)
 
-##Modular Device Model Numbers
+##Modular Device Part Numbers
 
-[model_numbers](./model_numbers.csv)
+[part_numbers](./part_numbers.csv)
