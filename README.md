@@ -8,18 +8,6 @@ License:
 
     BSD
 
-##Git
-
-<https://github.com/janelia-idf/git_setup>
-
-Note that this repository contains submodules. After cloning this
-repository, run these commands to fetch the data from the submodules:
-
-```shell
-git submodule init
-git submodule update
-```
-
 ##Introduction
 
 Modular devices are combinations of open source object oriented
@@ -149,3 +137,15 @@ long led_pin = dev.callServerMethod("getLedPin");
 ##Modular Device Hardware Part Numbers
 
 [part_numbers](./part_numbers.csv)
+
+##Git
+
+<https://github.com/janelia-idf/git_setup>
+
+Note that this repository contains submodules. After cloning this
+repository, run these commands to fetch the data from the submodules:
+
+```shell
+git submodule init
+git submodule update
+```
