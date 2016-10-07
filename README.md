@@ -22,6 +22,18 @@ git submodule update
 
 ##Introduction
 
+Modular devices are combinations of open source object oriented
+hardware and software.
+
+Object oriented hardware is a mixture of processors, electronics,
+software, and mechanics for interacting with, sensing, and controlling
+things in the physical world. Each hardware object can be used
+independently or combined like software objects to create more complex
+systems. It is designed to be as small and inexpensive as possible.
+It can scale both up, when large complicated systems are needed, and
+scale down, so only minimal components are necessary when needs are
+small and simple.
+
 Modular devices extend object oriented software into object oriented
 hardware, allowing you to create hardware objects with methods for
 executing actions, parameters for passing information to the methods,
@@ -84,10 +96,6 @@ interacting with modular devices.
 
 [ModularServer](https://github.com/janelia-arduino/ModularServer)
 
-####Instructions for the Arduino Libraries Necessary to Compile the Firmware
-
-[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
-
 ##Modular Device Client
 
 ###Serial Terminal
@@ -138,36 +146,6 @@ long led_pin = dev.callServerMethod("getLedPin");
 
 [modular_client_labview](https://github.com/janelia-labview/modular_client_labview.git)
 
-##Enclosure and Assembly Instructions
-
-[Enclosure](https://github.com/janelia-modular-devices/modular_device_enclosure.git)
-
-##Modular Devices
-
-[modular_device_teensy](https://github.com/janelia-modular-devices/modular_device_teensy.git)
-
-[aalborg_mfc_interface](https://github.com/janelia-modular-devices/aalborg_mfc_interface.git)
-
-[power_switch_controller](https://github.com/janelia-modular-devices/power_switch_controller)
-
-[mixed_signal_controller](https://github.com/janelia-modular-devices/mixed_signal_controller.git)
-
-[pwm_controller](https://github.com/janelia-modular-devices/pwm_controller.git)
-
-[stepper_controller](https://github.com/janelia-modular-devices/stepper_controller.git)
-
-[audio_controller](https://github.com/janelia-modular-devices/audio_controller.git)
-
-[led_controller](https://github.com/janelia-modular-devices/led_controller.git)
-
-[h_bridge_controller](https://github.com/janelia-modular-devices/h_bridge_controller.git)
-
-[encoder_interface](https://github.com/janelia-modular-devices/encoder_interface.git)
-
-[relay_controller](https://github.com/janelia-modular-devices/relay_controller.git)
-
-[user_interface](https://github.com/janelia-modular-devices/user_interface.git)
-
-##Modular Device Part Numbers
+##Modular Device Hardware Part Numbers
 
 [part_numbers](./part_numbers.csv)
