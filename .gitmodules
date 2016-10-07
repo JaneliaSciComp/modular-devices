@@ -61,3 +61,12 @@
 [submodule "devices/modular_device_teensy"]
 	path = devices/modular_device_teensy
 	url = https://github.com/janelia-modular-devices/modular_device_teensy.git
+[submodule "firmware/ModularDevice"]
+	path = firmware/ModularDevice
+	url = https://github.com/janelia-arduino/ModularDevice.git
+[submodule "firmware/HBridgeController"]
+	path = firmware/HBridgeController
+	url = https://github.com/janelia-arduino/HBridgeController.git
+[submodule "firmware/RungWheelController"]
+	path = firmware/RungWheelController
+	url = https://github.com/janelia-arduino/RungWheelController.git
