@@ -11,28 +11,69 @@ License:
 ##Introduction
 
 Modular devices are combinations of open source object oriented
-hardware and software.
+hardware, firmware, and software.
 
-Object oriented hardware is a mixture of processors, electronics,
-software, and mechanics for interacting with, sensing, and controlling
-things in the physical world. Each hardware object can be used
-independently or combined like software objects to create more complex
-systems. It is designed to be as small and inexpensive as possible.
-It can scale both up, when large complicated systems are needed, and
-scale down, so only minimal components are necessary when needs are
-small and simple.
+Modular devices extend object oriented software concepts into object
+oriented hardware, allowing you to create hardware objects with
+methods for executing actions, parameters for passing information to
+the methods, and fields for storing data.
 
-Modular devices extend object oriented software into object oriented
-hardware, allowing you to create hardware objects with methods for
-executing actions, parameters for passing information to the methods,
-and fields for storing data internally.
+Modular devices have methods that can be executed locally or remotely
+over a communication bus or channel with a client/server architecture.
+
+Object oriented hardware is a mixture of processors, electronics, and
+mechanics for interacting with, sensing, and controlling things in the
+physical world. Each hardware object can be used independently or
+combined like software objects to create more complex systems. The
+hardware objects can be implemented in a variety of form factors. Some
+form factors might be designed to be as small an inexpensive as
+possible, while others might be larger with more features or capacity,
+but every object has its own processor, with one or more communication
+channels, and can be used on its own or combined with any other
+hardware object, regardless of form factor. Hardware objects can scale
+both up, by combining many of them together when large complicated
+systems are needed, and scale down, so only a single hardware object
+is necessary when needs are small and simple, minimizing cost and
+component count.
+
+Object oriented firmware/software server objects run on the hardware
+objects and provide the interface necessary to interact with and
+control the device. Each firmware/software server object adds a set of
+methods, parameters, and fields to the device. Methods execute
+actions, parameters pass information to the methods, and fields store
+data internally on the device. Every device may consist of several
+layers of firmware/software server objects. Each layer extends or
+modififies the layer beneath it, like inheritance and composition in
+traditional object oriented software. Lower layers may provide general
+features specific to the particular hardware it is running on, while
+higher layers may add features specific to the particular task the
+user may want to run or hardware connected to the
+device. Firmware/software server objects are written to maximize code
+reuse and separation of concerns.
+
+Object oriented firmware/software client objects may be run on other
+modular devices or on host computers connected to one or more modular
+devices. The client software may be written in almost any language
+capable of writing strings over the communication channel to the
+modular device. Only one small client software driver should be
+necessary in each language to talk to all firmware and hardware
+objects. When the client software object initializes, it asks the
+modular devices about its methods, parameters, and fields, and then
+uses that information to create the client object. So new or modified
+modular devices can be connected to a client object and controlled
+without the user needing to change or update the client object
+code. Once the client has connected to the server, other software may
+interact with the client, calling methods on the local client object
+that automatically call the remote methods on the modular device over
+the communcation channel.
+
+##Details
 
 Modular devices are computers or electronics with microprocessors that
-implement the
-[modular device protocol](https://github.com/janelia-modular-devices/modular_device_protocol.git)
-in software or firmware. Modular devices have methods that can be
-executed locally or remotely over a communication bus with a
-client/server architecture.
+implement
+the
+[modular device protocol](https://github.com/janelia-modular-devices/modular_device_protocol.git) in
+software or firmware.
 
 Modular device servers consist of one or more methods that perform
 some action. Each method takes zero or more parameters to specify the
