@@ -16,7 +16,8 @@ hardware, firmware, and software.
 Modular devices extend object oriented software concepts into object
 oriented hardware, allowing you to create hardware objects with
 methods for executing actions, parameters for passing information to
-the methods, and fields for storing data.
+the methods, fields for storing data, and interrupts for triggering
+actions externally and internally.
 
 Modular devices have methods that can be executed locally or remotely
 over a communication bus or channel with a client/server architecture.
@@ -39,17 +40,18 @@ component count.
 Object oriented firmware/software server objects run on the hardware
 objects and provide the interface necessary to interact with and
 control the device. Each firmware/software server object adds a set of
-methods, parameters, and fields to the device. Methods execute
-actions, parameters pass information to the methods, and fields store
-data internally on the device. Every device may consist of several
-layers of firmware/software server objects. Each layer extends or
-modififies the layer beneath it, like inheritance and composition in
-traditional object oriented software. Lower layers may provide general
-features specific to the particular hardware it is running on, while
-higher layers may add features specific to the particular task the
-user may want to run or hardware connected to the
-device. Firmware/software server objects are written to maximize code
-reuse and separation of concerns.
+methods, parameters, fields, and interrupts to the device. Methods
+execute actions, parameters pass information to the methods, fields
+store data internally on the device, and interrupts allow triggering
+actions. Every device may consist of several layers of
+firmware/software server objects. Each layer extends or modififies the
+layer beneath it, like inheritance and composition in traditional
+object oriented software. Lower layers may provide general features
+specific to the particular hardware it is running on, while higher
+layers may add features specific to the particular task the user may
+want to run or hardware connected to the device. Firmware/software
+server objects are written to maximize code reuse and separation of
+concerns.
 
 Object oriented firmware/software client objects may be run on other
 modular devices or on host computers connected to one or more modular
@@ -58,14 +60,14 @@ capable of writing strings over the communication channel to the
 modular device. Only one small client software driver should be
 necessary in each language to talk to all firmware and hardware
 objects. When the client software object initializes, it asks the
-modular devices about its methods, parameters, and fields, and then
-uses that information to create the client object. So new or modified
-modular devices can be connected to a client object and controlled
-without the user needing to change or update the client object
-code. Once the client has connected to the server, other software may
-interact with the client, calling methods on the local client object
-that automatically call the remote methods on the modular device over
-the communcation channel.
+modular devices about its methods, parameters, fields, and interrupts,
+and then uses that information to create the client object. So new or
+modified modular devices can be connected to a client object and
+controlled without the user needing to change or update the client
+object code. Once the client has connected to the server, other
+software may interact with the client, calling methods on the local
+client object that automatically call the remote methods on the
+modular device over the communcation channel.
 
 ##Details
 
@@ -80,7 +82,9 @@ some action. Each method takes zero or more parameters to specify the
 action and methods may or may not return a value. Parameters and
 return values can be any JSON type, including objects with key/value
 pairs, arrays with an ordered collection of values, strings, numbers,
-booleans, or null. Fields are used for storing data in the device.
+booleans, or null. Fields are used for storing data in the
+device. Interrupts are used for triggering actions externally and
+internally.
 
 Server methods may be triggered by changes on the local device, such
 as timers expiring, buttons pressed, encoders turned, or through a GUI
