@@ -64,7 +64,7 @@ controlled without the user needing to change or update the client
 object code. Once the client has connected to the server, other
 software may interact with the client, calling methods on the local
 client object that automatically call the remote methods on the
-modular device over the communcation channel.
+modular device over the communication channel.
 
 ##Details
 
