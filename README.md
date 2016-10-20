@@ -42,7 +42,7 @@ objects and provide the interface necessary to interact with and
 control the device. Each firmware/software server object adds a set of
 methods, parameters, fields, and callbacks to the device. Every device
 may consist of several layers of firmware/software server
-objects. Each layer extends or modififies the layer beneath it, like
+objects. Each layer extends or modifies the layer beneath it, like
 inheritance and composition in traditional object oriented
 software. Lower layers may provide general features specific to the
 particular hardware it is running on, while higher layers may add
