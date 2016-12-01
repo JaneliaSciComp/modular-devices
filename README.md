@@ -220,3 +220,159 @@ repository, run these commands to fetch the data from the submodules:
 git submodule init
 git submodule update
 ```
+
+##Example API
+
+```json
+{
+  "id":"?",
+  "result":{
+    "device_id":{
+      "name":"rung_wheel_controller",
+      "form_factor":"5x3",
+      "serial_number":0
+    },
+    "API":{
+      "firmware":["all"],
+      "functions":[
+        "getDeviceId",
+        "getDeviceInfo",
+        "getInterruptInfo",
+        "detachAllInterrupts",
+        "getApi",
+        "getApiVerbose",
+        "getPropertyDefaultValues",
+        "setPropertiesToDefaults",
+        "getPropertyValues",
+        "getMemoryFree",
+        "setChannelOn",
+        "setChannelOff",
+        "setChannelsOn",
+        "setChannelsOff",
+        "setAllChannelsOn",
+        "setAllChannelsOff",
+        "addPwm",
+        "startPwm",
+        "addTogglePwm",
+        "startTogglePwm",
+        "stopPwm",
+        "stopAllPwm",
+        "flipEnabled"
+      ],
+      "parameters":[
+        "firmware",
+        "channel",
+        "channels",
+        "polarity",
+        "delay",
+        "period",
+        "on_duration",
+        "count",
+        "pwm_index"
+      ],
+      "properties":[
+        "serialNumber",
+        "polarityReversed",
+        "channelsEnabled",
+        "flipperDelay",
+        "flipperPeriod",
+        "flipperOnDuration",
+        "rungUpCountLower",
+        "rungUpCountUpper",
+        "rungDownCount"
+      ],
+      "callbacks":[
+        "flip"
+      ]
+    }
+  }
+}
+```
+
+##Example Device Info
+
+```json
+{
+  "id":"getDeviceInfo",
+  "result":{
+    "processor":"ATmega2560",
+    "hardware":[
+      {
+        "name":"Mega2560",
+        "interrupts":[]
+      },
+      {
+        "name":"h_bridge_controller",
+        "part_number":1170,
+        "version":"1.0",
+        "interrupts":[
+          "bnc_b",
+          "switch_0",
+          "switch_1",
+          "switch_2"
+        ]
+      }
+    ],
+    "firmware":[
+      {
+        "name":"ModularServer",
+        "version":"2.0.0"
+      },
+      {
+        "name":"ModularDevice",
+        "version":"2.0.0"
+      },
+      {
+        "name":"HBridgeController",
+        "version":"2.0.0"
+      },
+      {
+        "name":"RungWheelController",
+        "version":"1.0.0"
+      }
+    ]
+  }
+}
+```
+
+##Example Interrupt Info
+
+```json
+{
+  "id":"getInterruptInfo",
+  "result":[
+    {
+      "name":"bnc_b",
+      "hardware":"h_bridge_controller",
+      "number":1,
+      "pin":3,
+      "callback":null,
+      "mode":"DETACHED"
+    },
+    {
+      "name":"switch_0",
+      "hardware":"h_bridge_controller",
+      "number":2,
+      "pin":21,
+      "callback":"flip",
+      "mode":"FALLING"
+    },
+    {
+      "name":"switch_1",
+      "hardware":"h_bridge_controller",
+      "number":3,
+      "pin":20,
+      "callback":null,
+      "mode":"DETACHED"
+    },
+    {
+      "name":"switch_2",
+      "hardware":"h_bridge_controller",
+      "number":0,
+      "pin":2,
+      "callback":null,
+      "mode":"DETACHED"
+    }
+  ]
+}
+```
