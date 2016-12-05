@@ -73,3 +73,6 @@
 [submodule "firmware/AudioController"]
 	path = firmware/AudioController
 	url = https://github.com/peterpolidoro/AudioController.git
+[submodule "firmware/PowerSwitchController"]
+	path = firmware/PowerSwitchController
+	url = https://github.com/janelia-arduino/PowerSwitchController.git
