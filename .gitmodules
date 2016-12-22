@@ -79,3 +79,6 @@
 [submodule "firmware/AuditoryStimulator"]
 	path = firmware/AuditoryStimulator
 	url = https://github.com/janelia-arduino/AuditoryStimulator.git
+[submodule "firmware/SimpleStepDirController"]
+	path = firmware/SimpleStepDirController
+	url = https://github.com/janelia-arduino/SimpleStepDirController.git
