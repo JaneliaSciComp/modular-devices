@@ -79,9 +79,6 @@
 [submodule "firmware/AuditoryStimulator"]
 	path = firmware/AuditoryStimulator
 	url = https://github.com/janelia-arduino/AuditoryStimulator.git
-[submodule "firmware/RotaryPelletController"]
-	path = firmware/RotaryPelletController
-	url = https://github.com/janelia-arduino/RotaryPelletController.git
 [submodule "firmware/StepDirControllerSimple"]
 	path = firmware/StepDirControllerSimple
 	url = https://github.com/janelia-arduino/StepDirControllerSimple.git
