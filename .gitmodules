@@ -85,3 +85,15 @@
 [submodule "firmware/RotaryPelletControllerSimple"]
 	path = firmware/RotaryPelletControllerSimple
 	url = https://github.com/janelia-arduino/RotaryPelletControllerSimple.git
+[submodule "hardware/relay_controller_5x3"]
+	path = hardware/relay_controller_5x3
+	url = https://github.com/janelia-kicad/relay_controller_5x3.git
+[submodule "hardware/h_bridge_controller_5x3"]
+	path = hardware/h_bridge_controller_5x3
+	url = https://github.com/janelia-kicad/h_bridge_controller_5x3.git
+[submodule "hardware/h_bridge_controller_3x2"]
+	path = hardware/h_bridge_controller_3x2
+	url = https://github.com/janelia-kicad/h_bridge_controller_3x2.git
+[submodule "hardware/relay_controller_3x2"]
+	path = hardware/relay_controller_3x2
+	url = https://github.com/janelia-kicad/relay_controller_3x2.git
