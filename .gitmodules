@@ -103,3 +103,6 @@
 [submodule "firmware/RotaryDiskControllerSimple"]
 	path = firmware/RotaryDiskControllerSimple
 	url = https://github.com/janelia-arduino/RotaryDiskControllerSimple.git
+[submodule "hardware/template_5x3"]
+	path = hardware/template_5x3
+	url = https://github.com/janelia-kicad/template_5x3.git
