@@ -1,5 +1,6 @@
 part_number,hardware_name,form_factor
-1001,modular_device_teensy,3x2
+1000,modular_device_base,5x3
+1001,modular_device_base,3x2
 1100,aalborg_mfc_interface,5x3
 1110,power_switch_controller,5x3
 1111,power_switch_controller,3x2
