@@ -58,9 +58,6 @@
 [submodule "server/arduino"]
 	path = server/arduino
 	url = https://github.com/janelia-arduino/ModularServer.git
-[submodule "devices/modular_device_teensy"]
-	path = devices/modular_device_teensy
-	url = https://github.com/janelia-modular-devices/modular_device_teensy.git
 [submodule "firmware/ModularDevice"]
 	path = firmware/ModularDevice
 	url = https://github.com/janelia-arduino/ModularDevice.git
@@ -97,9 +94,6 @@
 [submodule "hardware/relay_controller_3x2"]
 	path = hardware/relay_controller_3x2
 	url = https://github.com/janelia-kicad/relay_controller_3x2.git
-[submodule "hardware/modular_device_teensy_3x2"]
-	path = hardware/modular_device_teensy_3x2
-	url = https://github.com/janelia-kicad/modular_device_teensy_3x2.git
 [submodule "firmware/RotaryDiskControllerSimple"]
 	path = firmware/RotaryDiskControllerSimple
 	url = https://github.com/janelia-arduino/RotaryDiskControllerSimple.git
