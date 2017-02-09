@@ -18,5 +18,5 @@ part_number,hardware_name,form_factor
 1180,encoder_interface,5x3
 1190,relay_controller,5x3
 1201,user_interface,3x2
-1210,hitfet_controller,5x3
-1211,hitfet_controller,3x2
+1210,high_power_switch_controller,5x3
+1211,high_power_switch_controller,3x2
