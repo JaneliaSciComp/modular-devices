@@ -1,21 +1,9 @@
 [submodule "enclosure"]
 	path = enclosure
 	url = https://github.com/janelia-modular-devices/modular_device_enclosure.git
-[submodule "devices/aalborg_mfc_interface"]
-	path = devices/aalborg_mfc_interface
-	url = https://github.com/janelia-modular-devices/aalborg_mfc_interface.git
 [submodule "devices/power_switch_controller"]
 	path = devices/power_switch_controller
 	url = https://github.com/janelia-modular-devices/power_switch_controller
-[submodule "devices/mixed_signal_controller"]
-	path = devices/mixed_signal_controller
-	url = https://github.com/janelia-modular-devices/mixed_signal_controller.git
-[submodule "devices/pwm_controller"]
-	path = devices/pwm_controller
-	url = https://github.com/janelia-modular-devices/pwm_controller.git
-[submodule "devices/stepper_controller"]
-	path = devices/stepper_controller
-	url = https://github.com/janelia-modular-devices/stepper_controller.git
 [submodule "devices/audio_controller"]
 	path = devices/audio_controller
 	url = https://github.com/janelia-modular-devices/audio_controller.git
@@ -31,12 +19,6 @@
 [submodule "documentation/protocol"]
 	path = documentation/protocol
 	url = https://github.com/janelia-modular-devices/modular_device_protocol.git
-[submodule "devices/user_interface"]
-	path = devices/user_interface
-	url = https://github.com/janelia-modular-devices/user_interface.git
-[submodule "devices/relay_controller"]
-	path = devices/relay_controller
-	url = https://github.com/janelia-modular-devices/relay_controller.git
 [submodule "devices/h_bridge_controller"]
 	path = devices/h_bridge_controller
 	url = https://github.com/janelia-modular-devices/h_bridge_controller.git
