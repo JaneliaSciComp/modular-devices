@@ -76,3 +76,12 @@
 [submodule "hardware/modular_device_base_3x2"]
 	path = hardware/modular_device_base_3x2
 	url = https://github.com/janelia-kicad/modular_device_base_3x2.git
+[submodule "hardware/modular_device_base_5x3"]
+	path = hardware/modular_device_base_5x3
+	url = https://github.com/janelia-kicad/modular_device_base_5x3.git
+[submodule "hardware/template_3x2"]
+	path = hardware/template_3x2
+	url = https://github.com/janelia-kicad/template_3x2.git
+[submodule "hardware/high_power_switch_controller_3x2"]
+	path = hardware/high_power_switch_controller_3x2
+	url = https://github.com/janelia-kicad/high_power_switch_controller_3x2.git
