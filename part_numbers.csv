@@ -13,10 +13,10 @@ part_number,hardware_name,form_factor
 1141,stepper_controller,3x2
 1151,audio_controller,3x2
 1160,led_controller,5x3
+1161,led_controller,3x2
 1170,h_bridge_controller,5x3
 1171,h_bridge_controller,3x2
 1180,encoder_interface,5x3
-1190,relay_controller,5x3
-1201,user_interface,3x2
+1181,encoder_interface,3x2
 1210,high_power_switch_controller,5x3
 1211,high_power_switch_controller,3x2
