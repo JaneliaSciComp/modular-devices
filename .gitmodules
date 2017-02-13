@@ -58,9 +58,6 @@
 [submodule "server/arduino"]
 	path = server/arduino
 	url = https://github.com/janelia-arduino/ModularServer.git
-[submodule "firmware/ModularDevice"]
-	path = firmware/ModularDevice
-	url = https://github.com/janelia-arduino/ModularDevice.git
 [submodule "firmware/HBridgeController"]
 	path = firmware/HBridgeController
 	url = https://github.com/janelia-arduino/HBridgeController.git
