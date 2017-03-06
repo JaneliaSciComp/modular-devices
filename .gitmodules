@@ -91,3 +91,6 @@
 [submodule "firmware/PelletDispenser"]
 	path = firmware/PelletDispenser
 	url = https://github.com/janelia-arduino/PelletDispenser.git
+[submodule "firmware/StageController"]
+	path = firmware/StageController
+	url = https://github.com/janelia-arduino/StageController.git
