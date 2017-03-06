@@ -55,21 +55,12 @@
 [submodule "firmware/AuditoryStimulator"]
 	path = firmware/AuditoryStimulator
 	url = https://github.com/janelia-arduino/AuditoryStimulator.git
-[submodule "firmware/StepDirControllerSimple"]
-	path = firmware/StepDirControllerSimple
-	url = https://github.com/janelia-arduino/StepDirControllerSimple.git
-[submodule "firmware/RotaryPelletControllerSimple"]
-	path = firmware/RotaryPelletControllerSimple
-	url = https://github.com/janelia-arduino/RotaryPelletControllerSimple.git
 [submodule "hardware/h_bridge_controller_5x3"]
 	path = hardware/h_bridge_controller_5x3
 	url = https://github.com/janelia-kicad/h_bridge_controller_5x3.git
 [submodule "hardware/h_bridge_controller_3x2"]
 	path = hardware/h_bridge_controller_3x2
 	url = https://github.com/janelia-kicad/h_bridge_controller_3x2.git
-[submodule "firmware/RotaryDiskControllerSimple"]
-	path = firmware/RotaryDiskControllerSimple
-	url = https://github.com/janelia-arduino/RotaryDiskControllerSimple.git
 [submodule "hardware/template_5x3"]
 	path = hardware/template_5x3
 	url = https://github.com/janelia-kicad/template_5x3.git
