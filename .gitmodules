@@ -88,3 +88,6 @@
 [submodule "hardware/high_power_switch_controller_5x3"]
 	path = hardware/high_power_switch_controller_5x3
 	url = https://github.com/janelia-kicad/high_power_switch_controller_5x3.git
+[submodule "firmware/ModularDeviceBase"]
+	path = firmware/ModularDeviceBase
+	url = https://github.com/janelia-arduino/ModularDeviceBase.git
