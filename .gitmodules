@@ -91,3 +91,12 @@
 [submodule "firmware/ModularDeviceBase"]
 	path = firmware/ModularDeviceBase
 	url = https://github.com/janelia-arduino/ModularDeviceBase.git
+[submodule "firmware/StepDirController"]
+	path = firmware/StepDirController
+	url = https://github.com/janelia-arduino/StepDirController.git
+[submodule "firmware/StepperController"]
+	path = firmware/StepperController
+	url = https://github.com/janelia-arduino/StepperController.git
+[submodule "firmware/PelletDispenser"]
+	path = firmware/PelletDispenser
+	url = https://github.com/janelia-arduino/PelletDispenser.git
