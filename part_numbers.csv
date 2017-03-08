@@ -20,3 +20,5 @@ part_number,hardware_name,form_factor
 1181,encoder_interface,3x2
 1210,high_power_switch_controller,5x3
 1211,high_power_switch_controller,3x2
+1220,optical_switch_interface,5x3
+1221,optical_switch_interface,3x2
