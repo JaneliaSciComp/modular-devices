@@ -1,4 +1,4 @@
-#modular-devices
+# modular-devices
 
 Authors:
 
@@ -8,7 +8,7 @@ License:
 
     BSD
 
-##Introduction
+## Introduction
 
 Modular devices are combinations of open source object oriented
 hardware, firmware, and software.
@@ -64,7 +64,7 @@ the client, calling methods on the local client object that
 automatically call the remote methods on the modular device over the
 communication channel.
 
-##Details
+## Details
 
 Modular devices are computers or electronics with microprocessors that
 implement
@@ -145,9 +145,9 @@ to call methods on modular device servers. Users can interact with
 remote modular devices over a serial port using simple serial
 terminals, such as the Arduino IDE serial monitor, cutecom, PuTTY etc.
 
-##Modular Device Server
+## Modular Device Server
 
-###Firmware for Arduino-like Devices
+### Firmware for Arduino-like Devices
 
 README files in examples directory of the ModularServer firmware
 repository are a good place to start reading for more details on
@@ -155,9 +155,9 @@ interacting with modular devices.
 
 [ModularServer](https://github.com/janelia-arduino/ModularServer)
 
-##Modular Device Client
+## Modular Device Client
 
-###Serial Terminal
+### Serial Terminal
 
 [Serial Terminal](https://github.com/janelia-modular-devices/modular_device_serial_terminal.git)
 
@@ -168,7 +168,7 @@ blinkLed 0.5 0.5 10
 getLedPin
 ```
 
-###Python
+### Python
 
 [modular_client_python](https://github.com/janelia-pypi/modular_client_python.git)
 
@@ -179,7 +179,7 @@ dev.blink_led(0.5,0.5,10)
 led_pin = dev.get_led_pin()
 ```
 
-###Matlab
+### Matlab
 
 [modular_client_matlab](https://github.com/janelia-matlab/modular_client_matlab.git)
 
@@ -190,7 +190,7 @@ dev.blinkLed(0.5,0.5,10)
 led_pin = dev.getLedPin()
 ```
 
-###Arduino
+### Arduino
 
 [ModularClient](https://github.com/janelia-arduino/ModularClient.git)
 
@@ -201,15 +201,15 @@ dev.callServerMethod("blinkLed",0.5,0.5,10);
 long led_pin = dev.callServerMethod("getLedPin");
 ```
 
-###Labview
+### Labview
 
 [modular_client_labview](https://github.com/janelia-labview/modular_client_labview.git)
 
-##Modular Device Hardware Part Numbers
+## Modular Device Hardware Part Numbers
 
 [part_numbers](./part_numbers.csv)
 
-##Git
+## Git
 
 <https://github.com/janelia-idf/git_setup>
 
@@ -221,19 +221,19 @@ git submodule init
 git submodule update
 ```
 
-##Example API
+## Example API
 
 ```json
 {
-  "id":"?",
+  "id":"??",
   "result":{
     "device_id":{
-      "name":"rung_wheel_controller",
-      "form_factor":"5x3",
+      "name":"pellet_dispenser",
+      "form_factor":"3x2",
       "serial_number":0
     },
     "API":{
-      "firmware":["all"],
+      "firmware":["ALL"],
       "functions":[
         "getDeviceId",
         "getDeviceInfo",
@@ -244,90 +244,134 @@ git submodule update
         "getPropertyDefaultValues",
         "setPropertiesToDefaults",
         "getPropertyValues",
-        "getMemoryFree",
-        "setChannelOn",
-        "setChannelOff",
-        "setChannelsOn",
-        "setChannelsOff",
-        "setAllChannelsOn",
-        "setAllChannelsOff",
-        "addPwm",
-        "startPwm",
-        "addTogglePwm",
-        "startTogglePwm",
-        "stopPwm",
-        "stopAllPwm",
-        "flipEnabled"
+        "reinitialize",
+        "enable",
+        "disable",
+        "enableAll",
+        "disableAll",
+        "enabled",
+        "moveBy",
+        "moveTo",
+        "moveAt",
+        "moveSoftlyBy",
+        "moveSoftlyTo",
+        "stop",
+        "stopAll",
+        "zero",
+        "zeroAll",
+        "getPositions",
+        "getTargetPositions",
+        "atTargetPositions",
+        "getVelocities",
+        "getTargetVelocities",
+        "atTargetVelocities",
+        "switchesActive",
+        "home",
+        "homing",
+        "homed",
+        "minimizeCurrent",
+        "restoreCurrent",
+        "homeStage",
+        "stageHoming",
+        "stageHomed",
+        "moveStageTo",
+        "moveStageSoftlyTo",
+        "getStagePositions",
+        "stageAtTargetPositions",
+        "dispensePellet",
+        "enableDispenser",
+        "disableDispenser"
       ],
       "parameters":[
         "firmware",
         "channel",
-        "channels",
-        "polarity",
-        "delay",
-        "period",
-        "on_duration",
-        "count",
-        "pwm_index"
+        "position",
+        "velocity",
+        "stage_positions"
       ],
       "properties":[
         "serialNumber",
-        "polarityReversed",
-        "channelsEnabled",
-        "flipperDelay",
-        "flipperPeriod",
-        "flipperOnDuration",
-        "rungUpCountLower",
-        "rungUpCountUpper",
-        "rungDownCount"
+        "stepsPerPositionUnit",
+        "velocityMax",
+        "velocityMin",
+        "accelerationMax",
+        "enablePolarity",
+        "stepPolarityInverted",
+        "dirPolarityInverted",
+        "switchActivePolarity",
+        "leftSwitchStopEnabled",
+        "rightSwitchesEnabled",
+        "rightSwitchStopEnabled",
+        "switchSoftStopEnabled",
+        "homeVelocity",
+        "currentScale",
+        "microstepsPerStep",
+        "stageChannelCount",
+        "stagePositionMin",
+        "stagePositionMax",
+        "basePosition",
+        "deliverPosition"
       ],
       "callbacks":[
-        "flip"
+        "deliver",
+        "abort"
       ]
     }
   }
 }
 ```
 
-##Example Device Info
+## Example Device Info
 
 ```json
 {
   "id":"getDeviceInfo",
   "result":{
-    "processor":"ATmega2560",
+    "processor":"MK20DX256",
     "hardware":[
       {
-        "name":"Mega2560",
+        "name":"Teensy",
+        "version":"3.2",
         "interrupts":[]
       },
       {
-        "name":"h_bridge_controller",
-        "part_number":1170,
-        "version":"1.0",
+        "name":"modular_device_base",
+        "part_number":1001,
+        "version":"1.1",
         "interrupts":[
-          "bnc_b",
-          "switch_0",
-          "switch_1",
-          "switch_2"
+          "bnc_a",
+          "bnc_b"
         ]
+      },
+      {
+        "name":"step_dir_controller",
+        "version":"1.0",
+        "interrupts":[]
       }
     ],
     "firmware":[
       {
         "name":"ModularServer",
-        "version":"2.0.0"
+        "version":"2.4.0"
       },
       {
-        "name":"ModularDevice",
-        "version":"2.0.0"
+        "name":"ModularDeviceBase",
+        "version":"2.2.0"
       },
       {
-        "name":"HBridgeController",
-        "version":"2.0.0"
+        "name":"StepDirController",
+        "version":"1.0.0"
       },
       {
-        "name":"RungWheelController",
+        "name":"StepperController",
+        "version":"1.0.0"
+      },
+      {
+        "name":"StageController",
+        "version":"1.0.0"
+      },
+      {
+        "name":"PelletDispenser",
         "version":"1.0.0"
       }
     ]
@@ -335,43 +379,27 @@ git submodule update
 }
 ```
 
-##Example Interrupt Info
+## Example Interrupt Info
 
 ```json
 {
   "id":"getInterruptInfo",
   "result":[
     {
-      "name":"bnc_b",
-      "hardware":"h_bridge_controller",
-      "number":1,
-      "pin":3,
-      "callback":null,
-      "mode":"DETACHED"
-    },
-    {
-      "name":"switch_0",
-      "hardware":"h_bridge_controller",
-      "number":2,
-      "pin":21,
-      "callback":"flip",
+      "name":"bnc_a",
+      "hardware":"modular_device_base",
+      "number":33,
+      "pin":33,
+      "callback":"deliver",
       "mode":"FALLING"
     },
     {
-      "name":"switch_1",
-      "hardware":"h_bridge_controller",
-      "number":3,
-      "pin":20,
-      "callback":null,
-      "mode":"DETACHED"
-    },
-    {
-      "name":"switch_2",
-      "hardware":"h_bridge_controller",
-      "number":0,
-      "pin":2,
-      "callback":null,
-      "mode":"DETACHED"
+      "name":"bnc_b",
+      "hardware":"modular_device_base",
+      "number":32,
+      "pin":32,
+      "callback":"abort",
+      "mode":"FALLING"
     }
   ]
 }
