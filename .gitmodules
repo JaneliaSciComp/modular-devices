@@ -106,3 +106,6 @@
 [submodule "hardware/audio_controller_3x2"]
 	path = hardware/audio_controller_3x2
 	url = https://github.com/janelia-kicad/audio_controller_3x2.git
+[submodule "hardware/step_dir_controller_3x2"]
+	path = hardware/step_dir_controller_3x2
+	url = https://github.com/janelia-kicad/step_dir_controller_3x2.git
