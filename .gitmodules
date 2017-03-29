@@ -103,3 +103,6 @@
 [submodule "firmware/HighPowerSwitchController"]
 	path = firmware/HighPowerSwitchController
 	url = https://github.com/janelia-arduino/HighPowerSwitchController.git
+[submodule "hardware/audio_controller_3x2"]
+	path = hardware/audio_controller_3x2
+	url = https://github.com/janelia-kicad/audio_controller_3x2.git
