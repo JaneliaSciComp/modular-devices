@@ -109,3 +109,6 @@
 [submodule "hardware/step_dir_controller_3x2"]
 	path = hardware/step_dir_controller_3x2
 	url = https://github.com/janelia-kicad/step_dir_controller_3x2.git
+[submodule "firmware/OpticalSwitchInterface"]
+	path = firmware/OpticalSwitchInterface
+	url = https://github.com/janelia-arduino/OpticalSwitchInterface.git
