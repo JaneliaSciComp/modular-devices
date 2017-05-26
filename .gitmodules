@@ -112,3 +112,6 @@
 [submodule "firmware/OpticalSwitchInterface"]
 	path = firmware/OpticalSwitchInterface
 	url = https://github.com/janelia-arduino/OpticalSwitchInterface.git
+[submodule "firmware/SleepAssayController"]
+	path = firmware/SleepAssayController
+	url = https://github.com/janelia-arduino/SleepAssayController.git
