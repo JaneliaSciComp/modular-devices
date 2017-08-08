@@ -197,8 +197,13 @@ led_pin = dev.getLedPin()
 Example Method Calls
 
 ```c++
-dev.callServerMethod("blinkLed",0.5,0.5,10);
-long led_pin = dev.callServerMethod("getLedPin");
+dev.call("blinkLed",0.5,0.5,10);
+StaticJsonBuffer<80> json_buffer;
+long led_pin = dev.callGetResult(json_buffer,"getLedPin");
+if (dev.callWasSuccessful())
+{
+  Serial << "led_pin: " << led_pin << "\n";
+}
 ```
 
 ### Labview
