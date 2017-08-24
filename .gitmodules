@@ -115,3 +115,6 @@
 [submodule "firmware/SleepAssayController"]
 	path = firmware/SleepAssayController
 	url = https://github.com/janelia-arduino/SleepAssayController.git
+[submodule "firmware/MouseJoystick"]
+	path = firmware/MouseJoystick
+	url = https://github.com/janelia-arduino/MouseJoystick.git
