@@ -25,4 +25,4 @@ part_number,hardware_name,form_factor
 1221,optical_switch_interface,3x2
 1231,encoder_interface_simple,3x2
 1241,step_dir_controller,3x2
-1251,rs232_interface,3x2
+1251,serial_interface,3x2
