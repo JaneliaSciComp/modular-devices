@@ -127,3 +127,6 @@
 [submodule "firmware/ModularDeviceTemplate"]
 	path = firmware/ModularDeviceTemplate
 	url = https://github.com/janelia-arduino/ModularDeviceTemplate.git
+[submodule "firmware/SpinningPlatform"]
+	path = firmware/SpinningPlatform
+	url = https://github.com/janelia-arduino/SpinningPlatform.git
