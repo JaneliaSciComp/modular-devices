@@ -216,7 +216,7 @@ if (dev.callWasSuccessful())
 
 ## Git
 
-<https://github.com/janelia-idf/git_setup>
+<https://github.com/janelia-experimental-technology/git_setup>
 
 Note that this repository contains submodules. After cloning this
 repository, run these commands to fetch the data from the submodules:
