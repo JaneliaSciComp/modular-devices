@@ -130,3 +130,6 @@
 [submodule "firmware/MixingValveController"]
 	path = firmware/MixingValveController
 	url = https://github.com/janelia-arduino/MixingValveController.git
+[submodule "firmware/MouseJoystickController"]
+	path = firmware/MouseJoystickController
+	url = https://github.com/janelia-arduino/MouseJoystickController.git
