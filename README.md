@@ -226,98 +226,48 @@ git submodule init
 git submodule update
 ```
 
-## Example API
+## Example Device Help
 
 ```json
 {
-  "id":"??",
-  "result":{
-    "device_id":{
-      "name":"pellet_dispenser",
-      "form_factor":"3x2",
-      "serial_number":0
+  "id": "?",
+  "result": {
+    "device_id": {
+      "name": "pellet_dispenser",
+      "form_factor": "5x3",
+      "serial_number": 0
     },
-    "API":{
-      "firmware":["ALL"],
-      "functions":[
-        "getDeviceId",
-        "getDeviceInfo",
-        "getInterruptInfo",
-        "detachAllInterrupts",
-        "getApi",
-        "getApiVerbose",
-        "getPropertyDefaultValues",
-        "setPropertiesToDefaults",
-        "getPropertyValues",
-        "reinitialize",
-        "enable",
-        "disable",
-        "enableAll",
-        "disableAll",
-        "enabled",
-        "moveBy",
-        "moveTo",
-        "moveAt",
-        "moveSoftlyBy",
-        "moveSoftlyTo",
-        "stop",
-        "stopAll",
-        "zero",
-        "zeroAll",
-        "getPositions",
-        "getTargetPositions",
-        "atTargetPositions",
-        "getVelocities",
-        "getTargetVelocities",
-        "atTargetVelocities",
-        "switchesActive",
-        "home",
-        "homing",
-        "homed",
-        "minimizeCurrent",
-        "restoreCurrent",
-        "homeStage",
-        "stageHoming",
-        "stageHomed",
-        "moveStageTo",
-        "moveStageSoftlyTo",
-        "getStagePositions",
-        "stageAtTargetPositions",
-        "dispensePellet",
-        "enableDispenser",
-        "disableDispenser"
+    "api": {
+      "firmware": [
+        "PelletDispenser"
       ],
-      "parameters":[
-        "firmware",
-        "channel",
-        "position",
-        "velocity",
-        "stage_positions"
+      "verbosity": "NAMES",
+      "functions": [
+        "setClientPropertyValues",
+        "getAssayStatus",
+        "moveStageToBasePosition",
+        "moveStageToDeliverPosition",
+        "moveStageToDispensePosition",
+        "moveStageToCleanPosition"
       ],
-      "properties":[
-        "serialNumber",
-        "stepsPerPositionUnit",
-        "velocityMax",
-        "velocityMin",
-        "accelerationMax",
-        "enablePolarity",
-        "stepPolarityInverted",
-        "dirPolarityInverted",
-        "switchActivePolarity",
-        "leftSwitchStopEnabled",
-        "rightSwitchesEnabled",
-        "rightSwitchStopEnabled",
-        "switchSoftStopEnabled",
-        "homeVelocity",
-        "currentScale",
-        "microstepsPerStep",
-        "stageChannelCount",
-        "stagePositionMin",
-        "stagePositionMax",
+      "properties": [
         "basePosition",
-        "deliverPosition"
+        "deliverPosition",
+        "dispenseChannelPosition",
+        "cleanPosition",
+        "cleanDuration",
+        "buzzPeriod",
+        "buzzOnDuration",
+        "buzzCount",
+        "toneFrequency",
+        "toneDuration",
+        "toneVolume",
+        "toneDelayMin",
+        "toneDelayMax",
+        "returnDelayMin",
+        "returnDelayMax"
       ],
-      "callbacks":[
+      "callbacks": [
         "deliver",
         "abort"
       ]
@@ -330,54 +280,55 @@ git submodule update
 
 ```json
 {
-  "id":"getDeviceInfo",
-  "result":{
-    "processor":"MK20DX256",
-    "hardware":[
+  "id": "getDeviceInfo",
+  "result": {
+    "processor": "MK64FX512",
+    "hardware": [
       {
-        "name":"Teensy",
-        "version":"3.2",
-        "interrupts":[]
+        "name": "Teensy",
+        "version": "3.5"
       },
       {
-        "name":"modular_device_base",
-        "part_number":1001,
-        "version":"1.1",
-        "interrupts":[
+        "name": "modular_device_base",
+        "part_number": 1000,
+        "version": "1.1",
+        "interrupts": [
           "bnc_a",
-          "bnc_b"
+          "bnc_b",
+          "btn_a",
+          "btn_b"
         ]
       },
       {
-        "name":"step_dir_controller",
-        "version":"1.0",
-        "interrupts":[]
+        "name": "stepper_controller",
+        "part_number": 1140,
+        "version": "1.0"
       }
     ],
-    "firmware":[
+    "firmware": [
       {
-        "name":"ModularServer",
-        "version":"2.4.0"
+        "name": "ModularServer",
+        "version": "3.3.5"
       },
       {
-        "name":"ModularDeviceBase",
-        "version":"2.2.0"
+        "name": "ModularDeviceBase",
+        "version": "2.4.0"
       },
       {
-        "name":"StepDirController",
-        "version":"1.0.0"
+        "name": "StepDirController",
+        "version": "2.1.4"
       },
       {
-        "name":"StepperController",
-        "version":"1.0.0"
+        "name": "StepperController",
+        "version": "2.2.3"
       },
       {
-        "name":"StageController",
-        "version":"1.0.0"
+        "name": "StageController",
+        "version": "2.2.3"
       },
       {
-        "name":"PelletDispenser",
-        "version":"1.0.0"
+        "name": "PelletDispenser",
+        "version": "2.1.3"
       }
     ]
   }
@@ -388,24 +339,167 @@ git submodule update
 
 ```json
 {
-  "id":"getInterruptInfo",
-  "result":[
+  "id": "getInterruptInfo",
+  "result": [
     {
-      "name":"bnc_a",
-      "hardware":"modular_device_base",
-      "number":33,
-      "pin":33,
-      "callback":"deliver",
-      "mode":"FALLING"
+      "name": "bnc_a",
+      "hardware": "modular_device_base",
+      "callback": "abort",
+      "mode": "FALLING"
     },
     {
-      "name":"bnc_b",
-      "hardware":"modular_device_base",
-      "number":32,
-      "pin":32,
-      "callback":"abort",
-      "mode":"FALLING"
+      "name": "bnc_b",
+      "hardware": "modular_device_base",
+      "callback": "deliver",
+      "mode": "FALLING"
+    },
+    {
+      "name": "btn_a",
+      "hardware": "modular_device_base",
+      "callback": "abort",
+      "mode": "FALLING"
+    },
+    {
+      "name": "btn_b",
+      "hardware": "modular_device_base",
+      "callback": "deliver",
+      "mode": "FALLING"
     }
   ]
+}
+```
+
+## Example API
+
+```json
+{
+  "id": "getApi",
+  "result": {
+    "firmware": [
+      "ALL"
+    ],
+    "verbosity": "NAMES",
+    "functions": [
+      "getDeviceId",
+      "getDeviceInfo",
+      "getApi",
+      "getPropertyDefaultValues",
+      "setPropertiesToDefaults",
+      "getPropertyValues",
+      "getInterruptInfo",
+      "detachAllInterrupts",
+      "forwardToAddress",
+      "getClientInfo",
+      "setLedOn",
+      "setLedOff",
+      "reinitialize",
+      "controllersCommunicating",
+      "enable",
+      "disable",
+      "enableAll",
+      "disableAll",
+      "enabled",
+      "moveBy",
+      "moveTo",
+      "moveAt",
+      "moveSoftlyBy",
+      "moveSoftlyTo",
+      "stop",
+      "stopAll",
+      "zero",
+      "zeroAll",
+      "getPositions",
+      "getTargetPositions",
+      "atTargetPositions",
+      "getVelocities",
+      "getTargetVelocities",
+      "atTargetVelocities",
+      "switchesActive",
+      "home",
+      "homing",
+      "homed",
+      "getDriversStatus",
+      "getDriversSettings",
+      "enableAutomaticCurrentScaling",
+      "disableAutomaticCurrentScaling",
+      "zeroHoldCurrent",
+      "restoreHoldCurrent",
+      "setPwmOffset",
+      "setPwmGradient",
+      "getPwmScales",
+      "homeStage",
+      "stageHoming",
+      "stageHomed",
+      "moveStageTo",
+      "moveStageSoftlyTo",
+      "getStagePosition",
+      "getStageTargetPosition",
+      "stageAtTargetPosition",
+      "setClientPropertyValues",
+      "getAssayStatus",
+      "moveStageToBasePosition",
+      "moveStageToDeliverPosition",
+      "moveStageToDispensePosition",
+      "moveStageToCleanPosition"
+    ],
+    "parameters": [
+      "firmware",
+      "verbosity",
+      "address",
+      "request",
+      "led",
+      "channel",
+      "position",
+      "velocity",
+      "pwm_amplitude",
+      "stage_position"
+    ],
+    "properties": [
+      "serialNumber",
+      "ledsEnabled",
+      "channelCount",
+      "stepsPerPositionUnits",
+      "velocityMax",
+      "velocityMin",
+      "accelerationMax",
+      "enablePolarity",
+      "stepPolarityInverted",
+      "dirPolarityInverted",
+      "switchActivePolarity",
+      "leftSwitchStopEnabled",
+      "rightSwitchesEnabled",
+      "rightSwitchStopEnabled",
+      "switchSoftStopEnabled",
+      "homeVelocity",
+      "invertDriverDirection",
+      "runCurrent",
+      "holdCurrent",
+      "holdDelay",
+      "microstepsPerStep",
+      "zeroHoldCurrentMode",
+      "stagePositionMin",
+      "stagePositionMax",
+      "basePosition",
+      "deliverPosition",
+      "dispenseChannelPosition",
+      "cleanPosition",
+      "cleanDuration",
+      "buzzPeriod",
+      "buzzOnDuration",
+      "buzzCount",
+      "toneFrequency",
+      "toneDuration",
+      "toneVolume",
+      "toneDelayMin",
+      "toneDelayMax",
+      "returnDelayMin",
+      "returnDelayMax"
+    ],
+    "callbacks": [
+      "reset",
+      "deliver",
+      "abort"
+    ]
+  }
 }
 ```
