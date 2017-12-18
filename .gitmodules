@@ -136,3 +136,6 @@
 [submodule "firmware/GradientController"]
 	path = firmware/GradientController
 	url = https://github.com/janelia-arduino/GradientController.git
+[submodule "firmware/PulseController"]
+	path = firmware/PulseController
+	url = https://github.com/janelia-arduino/PulseController.git
