@@ -118,9 +118,6 @@
 [submodule "firmware/I2CInterface"]
 	path = firmware/I2CInterface
 	url = https://github.com/janelia-arduino/I2CInterface.git
-[submodule "firmware/RS232Interface"]
-	path = firmware/RS232Interface
-	url = https://github.com/janelia-arduino/RS232Interface.git
 [submodule "firmware/ModularDeviceTemplate"]
 	path = firmware/ModularDeviceTemplate
 	url = https://github.com/janelia-arduino/ModularDeviceTemplate.git
