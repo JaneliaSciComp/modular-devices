@@ -136,6 +136,3 @@
 [submodule "firmware/PulseController"]
 	path = firmware/PulseController
 	url = https://github.com/janelia-arduino/PulseController.git
-[submodule "firmware/Rs232Interface"]
-	path = firmware/Rs232Interface
-	url = https://github.com/janelia-arduino/Rs232Interface.git
