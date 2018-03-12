@@ -139,3 +139,6 @@
 [submodule "firmware/ZebrafishTrackerController"]
 	path = firmware/ZebrafishTrackerController
 	url = https://github.com/janelia-arduino/ZebrafishTrackerController.git
+[submodule "firmware/LavisController"]
+	path = firmware/LavisController
+	url = https://github.com/janelia-arduino/LavisController.git
