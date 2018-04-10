@@ -142,3 +142,12 @@
 [submodule "firmware/LavisController"]
 	path = firmware/LavisController
 	url = https://github.com/janelia-arduino/LavisController.git
+[submodule "firmware/EncoderInterfaceSimple"]
+	path = firmware/EncoderInterfaceSimple
+	url = https://github.com/janelia-arduino/EncoderInterfaceSimple.git
+[submodule "firmware/LedController"]
+	path = firmware/LedController
+	url = https://github.com/janelia-arduino/LedController.git
+[submodule "firmware/ToydadInterface"]
+	path = firmware/ToydadInterface
+	url = https://github.com/janelia-arduino/ToydadInterface.git
