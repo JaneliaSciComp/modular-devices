@@ -151,3 +151,6 @@
 [submodule "firmware/ToydadInterface"]
 	path = firmware/ToydadInterface
 	url = https://github.com/janelia-arduino/ToydadInterface.git
+[submodule "firmware/HeadFixationController"]
+	path = firmware/HeadFixationController
+	url = https://github.com/janelia-arduino/HeadFixationController.git
