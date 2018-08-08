@@ -154,3 +154,6 @@
 [submodule "firmware/HeadFixationController"]
 	path = firmware/HeadFixationController
 	url = https://github.com/janelia-arduino/HeadFixationController.git
+[submodule "firmware/OdorNozzleController"]
+	path = firmware/OdorNozzleController
+	url = https://github.com/peterpolidoro/OdorNozzleController.git
