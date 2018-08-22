@@ -24,7 +24,9 @@ part_number,hardware_name,form_factor
 1220,optical_switch_interface,5x3
 1221,optical_switch_interface,3x2
 1231,encoder_interface_simple,3x2
+1240,step_dir_controller,5x3
 1241,step_dir_controller,3x2
 1251,rs232_interface,3x2
 1261,i2c_interface,3x2
 1270,smart_vision_controller,5x3
+2005,ethoscope_stepper_controller,3x3
