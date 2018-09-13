@@ -29,4 +29,5 @@ part_number,hardware_name,form_factor
 1251,rs232_interface,3x2
 1261,i2c_interface,3x2
 1270,backlight_controller,5x3
+1271,backlight_controller,3x2
 2005,ethoscope_stepper_controller,3x3
