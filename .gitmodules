@@ -157,3 +157,6 @@
 [submodule "firmware/OdorNozzleController"]
 	path = firmware/OdorNozzleController
 	url = https://github.com/peterpolidoro/OdorNozzleController.git
+[submodule "firmware/DacController"]
+	path = firmware/DacController
+	url = https://github.com/janelia-arduino/DacController.git
