@@ -154,3 +154,6 @@
 [submodule "firmware/OdorNozzleController"]
 	path = firmware/OdorNozzleController
 	url = https://github.com/peterpolidoro/OdorNozzleController.git
+[submodule "firmware/AnalogController"]
+	path = firmware/AnalogController
+	url = https://github.com/peterpolidoro/AnalogController.git
