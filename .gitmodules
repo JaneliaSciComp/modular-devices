@@ -157,3 +157,6 @@
 [submodule "firmware/AnalogController"]
 	path = firmware/AnalogController
 	url = https://github.com/peterpolidoro/AnalogController.git
+[submodule "firmware/DigitalController"]
+	path = firmware/DigitalController
+	url = https://github.com/janelia-arduino/DigitalController.git
