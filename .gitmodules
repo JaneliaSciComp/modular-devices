@@ -160,3 +160,6 @@
 [submodule "firmware/DigitalController"]
 	path = firmware/DigitalController
 	url = https://github.com/janelia-arduino/DigitalController.git
+[submodule "firmware/BacklightController"]
+	path = firmware/BacklightController
+	url = https://github.com/janelia-arduino/BacklightController.git
