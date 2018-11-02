@@ -166,3 +166,9 @@
 [submodule "firmware/FlyBowlController"]
 	path = firmware/FlyBowlController
 	url = https://github.com/janelia-arduino/FlyBowlController.git
+[submodule "devices/backlight_controller"]
+	path = devices/backlight_controller
+	url = https://github.com/janelia-modular-devices/backlight_controller.git
+[submodule "devices/fly_bowl_controller"]
+	path = devices/fly_bowl_controller
+	url = https://github.com/janelia-modular-devices/fly_bowl_controller.git
