@@ -172,3 +172,12 @@
 [submodule "devices/fly_bowl_controller"]
 	path = devices/fly_bowl_controller
 	url = https://github.com/janelia-modular-devices/fly_bowl_controller.git
+[submodule "firmware/SerialInterface"]
+	path = firmware/SerialInterface
+	url = https://github.com/janelia-arduino/SerialInterface.git
+[submodule "firmware/UltravioletDetectorInterface"]
+	path = firmware/UltravioletDetectorInterface
+	url = https://github.com/janelia-arduino/UltravioletDetectorInterface.git
+[submodule "firmware/HplcController"]
+	path = firmware/HplcController
+	url = https://github.com/janelia-arduino/HplcController.git
