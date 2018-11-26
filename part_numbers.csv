@@ -7,8 +7,8 @@ part_number,hardware_name,form_factor
 1111,power_switch_controller,3x2
 1120,mixed_signal_controller,5x3
 1121,mixed_signal_controller,3x2
-1130,pwm_controller,5x3
-1131,pwm_controller,3x2
+1130,servo_controller,5x3
+1131,servo_controller,3x2
 1140,stepper_controller,5x3
 1141,stepper_controller,3x2
 1150,audio_controller,5x3
