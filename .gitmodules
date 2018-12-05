@@ -181,9 +181,6 @@
 [submodule "firmware/HplcController"]
 	path = firmware/HplcController
 	url = https://github.com/janelia-arduino/HplcController.git
-[submodule "firmware/PumpController"]
-	path = firmware/PumpController
-	url = https://github.com/janelia-arduino/PumpController.git
 [submodule "devices/sleep_assay_controller"]
 	path = devices/sleep_assay_controller
 	url = https://github.com/janelia-modular-devices/sleep_assay_controller.git
