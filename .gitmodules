@@ -181,3 +181,24 @@
 [submodule "firmware/HplcController"]
 	path = firmware/HplcController
 	url = https://github.com/janelia-arduino/HplcController.git
+[submodule "firmware/PumpController"]
+	path = firmware/PumpController
+	url = https://github.com/janelia-arduino/PumpController.git
+[submodule "devices/sleep_assay_controller"]
+	path = devices/sleep_assay_controller
+	url = https://github.com/janelia-modular-devices/sleep_assay_controller.git
+[submodule "devices/hplc_controller"]
+	path = devices/hplc_controller
+	url = https://github.com/janelia-modular-devices/hplc_controller.git
+[submodule "devices/stepper_controller"]
+	path = devices/stepper_controller
+	url = https://github.com/janelia-modular-devices/stepper_controller.git
+[submodule "devices/step_dir_controller"]
+	path = devices/step_dir_controller
+	url = https://github.com/janelia-modular-devices/step_dir_controller.git
+[submodule "devices/spinning_platform_controller"]
+	path = devices/spinning_platform_controller
+	url = https://github.com/janelia-modular-devices/spinning_platform_controller.git
+[submodule "devices/rung_wheel_controller"]
+	path = devices/rung_wheel_controller
+	url = https://github.com/janelia-modular-devices/rung_wheel_controller.git
