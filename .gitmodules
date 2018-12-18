@@ -199,3 +199,9 @@
 [submodule "devices/rung_wheel_controller"]
 	path = devices/rung_wheel_controller
 	url = https://github.com/janelia-modular-devices/rung_wheel_controller.git
+[submodule "firmware/OlfactoryArenaController"]
+	path = firmware/OlfactoryArenaController
+	url = https://github.com/janelia-arduino/OlfactoryArenaController.git
+[submodule "firmware/ServoController"]
+	path = firmware/ServoController
+	url = https://github.com/janelia-arduino/ServoController.git
