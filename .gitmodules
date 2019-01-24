@@ -202,3 +202,6 @@
 [submodule "firmware/ServoController"]
 	path = firmware/ServoController
 	url = https://github.com/janelia-arduino/ServoController.git
+[submodule "firmware/WireInterface"]
+	path = firmware/WireInterface
+	url = https://github.com/janelia-arduino/WireInterface.git
