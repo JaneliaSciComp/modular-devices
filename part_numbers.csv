@@ -23,6 +23,7 @@ part_number,hardware_name,form_factor
 1211,high_power_switch_controller,3x2
 1220,optical_switch_interface,5x3
 1221,optical_switch_interface,3x2
+1230,encoder_interface_simple,5x3
 1231,encoder_interface_simple,3x2
 1240,step_dir_controller,5x3
 1241,step_dir_controller,3x2
@@ -33,4 +34,6 @@ part_number,hardware_name,form_factor
 1272,backlight_controller,6x3
 1280,dac_controller,5x3
 1281,dac_controller,3x2
+1290,encoder_interface_magnetic,5x3
+1291,encoder_interface_magnetic,3x2
 2005,ethoscope_stepper_controller,3x3
