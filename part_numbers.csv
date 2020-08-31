@@ -1,7 +1,8 @@
 part_number,hardware_name,form_factor
 1000,modular_device_base,5x3
 1001,modular_device_base,3x2
-1004,modular_device_base,4
+1010,modular_device_base,TEENSY40
+1011,modular_device_base,TEENSY41
 1100,aalborg_mfc_interface,5x3
 1101,aalborg_mfc_interface,3x2
 1110,power_switch_controller,5x3
