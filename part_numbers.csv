@@ -39,4 +39,5 @@ part_number,hardware_name,form_factor
 1290,encoder_interface_magnetic,5x3
 1291,encoder_interface_magnetic,3x2
 2005,ethoscope_stepper_controller,3x3
-2015,y_arena_valve_controller,4
+2015,y_arena_valve_controller,TEENSY40
+2025,lickport_array_controller,TEENSY40
