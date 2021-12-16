@@ -13,6 +13,8 @@ part_number,hardware_name,form_factor
 1131,servo_controller,3x2
 1140,stepper_controller,5x3
 1141,stepper_controller,3x2
+1145,stepper_controller,TEENSY40
+1146,stepper_controller,TEENSY41
 1150,audio_controller,5x3
 1151,audio_controller,3x2
 1160,led_controller,5x3
@@ -29,6 +31,8 @@ part_number,hardware_name,form_factor
 1231,encoder_interface_simple,3x2
 1240,step_dir_controller,5x3
 1241,step_dir_controller,3x2
+1245,step_dir_controller,TEENSY40
+1246,step_dir_controller,TEENSY41
 1251,rs232_interface,3x2
 1261,i2c_interface,3x2
 1270,backlight_controller,5x3
@@ -41,3 +45,4 @@ part_number,hardware_name,form_factor
 2005,ethoscope_stepper_controller,3x3
 2015,y_arena_valve_controller,TEENSY40
 2025,lickport_array_controller,TEENSY40
+2035,mouse_reach_controller,TEENSY40
