@@ -17,6 +17,8 @@ part_number,hardware_name,form_factor
 1146,stepper_controller,TEENSY41
 1150,audio_controller,5x3
 1151,audio_controller,3x2
+1155,audio_controller,TEENSY40
+1156,audio_controller,TEENSY41
 1160,led_controller,5x3
 1161,led_controller,3x2
 1170,h_bridge_controller,5x3
